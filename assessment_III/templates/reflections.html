@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reflection – Task 2 (Expanded)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding: 2rem; max-width: 900px; margin: auto; line-height: 1.6; }
+    h1, h3 { margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>Reflection – Task 2 (Expanded)</h1>
+
+  <h3>1. What extra features have you added in Task 1.1, and why?</h3>
+  <p>
+    In Task 1.1, I extended the basic CSV table by integrating two fully interactive charts using D3.js, and by implementing
+    a dynamic filter control to enhance user engagement and analytical capability. The first chart is a comprehensive
+    bar chart visualizing sentiment distribution across all tweets. It replaces the static display of raw values with an
+    intuitive depiction of positive, neutral, and negative counts, allowing users to grasp overall trends in a single glance.
+    The second chart is a breakdown of negative-reason categories, showing which complaint types—like “Late Flight” or
+    “Customer Service Issue”—are most frequent among negative tweets. To tie these together, I added a “Filter by Airline”
+    dropdown control that lists every airline in the dataset (United, American, Southwest, Delta, etc.). Selecting an airline
+    triggers both charts to update seamlessly, reflecting only that subset of data. Technically, this required refactoring the
+    D3 functions to accept filtered datasets, clearing and redrawing SVG elements on demand, and wiring up event listeners
+    on the dropdown. The result is an exploratory dashboard: users no longer need to write code or manually sift through dozens
+    of rows to compare airlines—they simply choose from the dropdown and the visuals adjust in real time.
+  </p>
+
+  <h3>2. Why did you add these features?</h3>
+  <p>
+    The decision to augment a static HTML table with interactive charts and controls was driven by three core principles of
+    effective data communication: clarity, efficiency, and engagement. First, clarity: raw tables can obscure patterns because
+    users must read dozens of cells to find high-level trends. A bar chart makes it immediately obvious which sentiment category
+    dominates. A breakdown chart highlights the top complaint reasons without manual counting. Second, efficiency: time-pressed
+    users should extract insights in seconds. The dropdown filter eliminates repetitive manual filtering—just select an airline
+    and let the visuals refresh. This transforms analysis from a multi-step process into a single click, greatly speeding up
+    comparative tasks. Third, engagement: interactive visuals invite exploration and discussion. Watching charts morph in real
+    time as you change the filter encourages deeper insight and makes the data “come alive.” For example, a manager can
+    dynamically test bullet‑point insights like “Does Southwest have more luggage complaints than United?” by switching the
+    filter. Altogether, these enhancements align with best practices in data visualization—encapsulating complexity behind
+    intuitive controls and leveraging graphical perception to maximize impact.
+  </p>
+
+  <h3>3. What are the security issues of WebSocket?</h3>
+  <p>
+    WebSockets open a persistent, bidirectional channel between client and server, which introduces several security challenges
+    beyond traditional HTTP. One major risk is Cross‑Site WebSocket Hijacking (CSWSH): without strict origin checks, a malicious
+    webpage can initiate a WebSocket connection on behalf of an authenticated user, sending and receiving messages as if it
+    were the legitimate site. Injection attacks are another vector—if incoming messages are written directly into the DOM
+    without sanitization, an attacker can send malicious HTML or JavaScript, resulting in XSS vulnerabilities. Denial‑of‑Service
+    is also a concern: WebSockets can be used to flood the server with high‑frequency messages, exhausting CPU or memory.
+    Finally, because WebSockets by default are unencrypted if using `ws://`, they are susceptible to eavesdropping and
+    tampering in transit, enabling MitM attacks.
+  </p>
+
+  <h3>4. What can be done to secure WebSocket?</h3>
+  <p>
+    To mitigate these threats, I implemented a multi‑layered security approach. First, I restricted origins with Flask‑SocketIO’s
+    `cors_allowed_origins` setting, explicitly whitelisting only our known domains (localhost for development and the Heroku
+    URL for production). This blocks unauthorized pages from opening connections. Second, by deploying under HTTPS, the
+    WebSocket handshake upgrades to `wss://`, ensuring all messages are encrypted with TLS, protecting confidentiality and
+    integrity. Third, I sanitize every incoming message using Python’s `html.escape()`, escaping `<`, `>`, and other special
+    characters before broadcasting, which neutralizes potential XSS payloads. Fourth, I implemented a basic rate limit by
+    using non‑blocking `socketio.sleep()` to pace the background task, and could extend this to reject clients that exceed
+    message thresholds or payload sizes. Combined, these measures protect against CSWSH, injection, DoS, and eavesdropping.
+  </p>
+
+  <h3>5. What were the things you found particularly challenging in completing Task 1?</h3>
+  <p>
+    Several challenges emerged during Task 1. The first was managing D3.js version conflicts: my initial prototype loaded both
+    D3 v3 (for older chart code) and D3 v7 (for newer modules), causing the global `d3` namespace to collide. Resolving this
+    required refactoring code to a single D3 version (v7) and rewriting legacy segments. The second challenge was implementing
+    non‑blocking background tasks in Flask‑SocketIO. I initially used Python’s `threading.Thread`, which blocked the event
+    loop and caused synchronization issues. Switching to `socketio.start_background_task()` and using `socketio.sleep()`
+    resolved these issues but required careful reorganization. The third major hurdle was ensuring that chart redraws occurred
+    reliably on each filter change or new data event. I had to clear previous SVG elements and meticulously recalculate scales
+    and axes to avoid rendering artifacts. Finally, ensuring compatibility with Python 3.13 forced me to move from `eventlet`
+    to `gevent`, which slightly altered the deployment pipeline.
+  </p>
+
+  <h3>6. How can you improve your approach to these tasks?</h3>
+  <p>
+    Reflecting on the overall process, I see several opportunities for improvement. First, I would modularize the chart‐drawing
+    logic into reusable JS modules that accept raw data arrays, rather than embedding CSV loads within chart functions.
+    This separation would simplify testing, maintenance, and potential reuse in other contexts. Second, I would introduce
+    automated tests earlier, including unit tests for WebSocket handlers to verify payload sanitization and basic integration
+    tests (e.g., using a headless browser) to confirm that chart redraws fire correctly on filter changes. Third, adopting a
+    build toolchain like Webpack or Rollup would allow me to manage dependencies more cleanly, bundle only necessary D3
+    modules, and avoid version collisions. Fourth, using environment‑specific configurations (development vs. production)
+    to toggle features like verbose logging or playback speeds would streamline both development and deployment. Finally,
+    I would document key design decisions, data flows, and security rationales in a README and inline code comments, to
+    make onboarding smoother for collaborators and future enhancement easier.
+  </p>
+
+</body>
+</html>

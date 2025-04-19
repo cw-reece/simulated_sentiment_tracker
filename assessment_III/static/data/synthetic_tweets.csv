@@ -1,0 +1,1001 @@
+tweet_id,tweet_created,airline,airline_sentiment,negative_reason,text
+1,2025-04-08 22:21:19,Virgin America,positive,,This is a positive tweet about Virgin America.
+2,2025-02-28 10:30:34,United,negative,Other Issue,This is a negative tweet about United.
+3,2025-01-26 07:54:29,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+4,2025-04-15 09:58:24,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+5,2025-02-20 22:11:25,United,positive,,This is a positive tweet about United.
+6,2025-03-26 10:36:11,American,positive,,This is a positive tweet about American.
+7,2025-02-09 18:14:06,United,negative,Cancelled Flight,This is a negative tweet about United.
+8,2025-02-14 13:25:42,Virgin America,positive,,This is a positive tweet about Virgin America.
+9,2025-03-10 09:51:03,US Airways,positive,,This is a positive tweet about US Airways.
+10,2025-04-19 19:18:53,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+11,2025-03-27 02:48:25,American,positive,,This is a positive tweet about American.
+12,2025-03-12 05:41:38,United,negative,Other Issue,This is a negative tweet about United.
+13,2025-04-09 00:50:57,Virgin America,positive,,This is a positive tweet about Virgin America.
+14,2025-03-02 10:49:19,Southwest,neutral,,This is a neutral tweet about Southwest.
+15,2025-01-29 14:15:55,United,neutral,,This is a neutral tweet about United.
+16,2025-03-13 13:04:29,Delta,negative,Other Issue,This is a negative tweet about Delta.
+17,2025-04-09 03:03:20,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+18,2025-01-20 19:57:52,American,positive,,This is a positive tweet about American.
+19,2025-03-26 17:22:54,Delta,positive,,This is a positive tweet about Delta.
+20,2025-03-19 21:18:58,US Airways,positive,,This is a positive tweet about US Airways.
+21,2025-03-19 07:56:24,American,positive,,This is a positive tweet about American.
+22,2025-03-08 00:46:06,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+23,2025-02-13 20:40:27,American,positive,,This is a positive tweet about American.
+24,2025-03-29 20:51:03,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+25,2025-03-23 16:46:03,Delta,negative,Late Flight,This is a negative tweet about Delta.
+26,2025-03-27 02:53:41,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+27,2025-02-22 06:09:18,American,neutral,,This is a neutral tweet about American.
+28,2025-01-22 01:17:05,United,neutral,,This is a neutral tweet about United.
+29,2025-03-04 13:38:58,Southwest,negative,longlines,This is a negative tweet about Southwest.
+30,2025-01-29 15:04:00,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+31,2025-03-05 19:58:54,Virgin America,positive,,This is a positive tweet about Virgin America.
+32,2025-02-08 23:22:31,American,neutral,,This is a neutral tweet about American.
+33,2025-04-03 00:05:21,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+34,2025-04-17 02:26:44,Delta,positive,,This is a positive tweet about Delta.
+35,2025-04-01 21:51:00,Southwest,neutral,,This is a neutral tweet about Southwest.
+36,2025-02-23 00:46:30,Delta,neutral,,This is a neutral tweet about Delta.
+37,2025-04-03 19:56:31,American,negative,Damaged Luggage,This is a negative tweet about American.
+38,2025-04-09 15:05:13,JetBlue,negative,Flight Attendant Complaints,This is a negative tweet about JetBlue.
+39,2025-01-31 17:36:19,United,positive,,This is a positive tweet about United.
+40,2025-02-01 08:11:16,Delta,negative,longlines,This is a negative tweet about Delta.
+41,2025-03-14 18:28:51,United,negative,longlines,This is a negative tweet about United.
+42,2025-03-05 18:54:50,United,negative,Late Flight,This is a negative tweet about United.
+43,2025-02-28 13:15:10,American,negative,longlines,This is a negative tweet about American.
+44,2025-03-22 05:08:22,American,neutral,,This is a neutral tweet about American.
+45,2025-04-12 14:58:16,US Airways,positive,,This is a positive tweet about US Airways.
+46,2025-04-18 19:44:11,American,positive,,This is a positive tweet about American.
+47,2025-03-06 20:31:18,JetBlue,positive,,This is a positive tweet about JetBlue.
+48,2025-02-15 12:23:54,American,negative,Damaged Luggage,This is a negative tweet about American.
+49,2025-02-26 14:07:35,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+50,2025-03-25 08:37:47,Virgin America,positive,,This is a positive tweet about Virgin America.
+51,2025-02-12 21:15:18,US Airways,positive,,This is a positive tweet about US Airways.
+52,2025-04-05 13:49:20,American,positive,,This is a positive tweet about American.
+53,2025-03-04 05:01:12,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+54,2025-02-20 16:47:08,Delta,positive,,This is a positive tweet about Delta.
+55,2025-03-28 22:51:13,United,negative,Bad Flight,This is a negative tweet about United.
+56,2025-02-14 16:52:54,Delta,neutral,,This is a neutral tweet about Delta.
+57,2025-04-10 09:09:15,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+58,2025-03-04 18:39:57,US Airways,positive,,This is a positive tweet about US Airways.
+59,2025-02-09 15:38:11,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+60,2025-02-16 03:44:48,JetBlue,positive,,This is a positive tweet about JetBlue.
+61,2025-03-26 01:00:32,American,positive,,This is a positive tweet about American.
+62,2025-03-11 16:26:28,Virgin America,positive,,This is a positive tweet about Virgin America.
+63,2025-02-10 15:05:21,United,negative,longlines,This is a negative tweet about United.
+64,2025-02-02 07:51:38,United,neutral,,This is a neutral tweet about United.
+65,2025-03-11 07:09:25,United,negative,Customer Service Issue,This is a negative tweet about United.
+66,2025-02-16 16:07:34,United,positive,,This is a positive tweet about United.
+67,2025-01-31 03:30:39,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+68,2025-04-17 05:19:46,Virgin America,positive,,This is a positive tweet about Virgin America.
+69,2025-03-12 07:58:30,American,positive,,This is a positive tweet about American.
+70,2025-03-18 14:02:04,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+71,2025-04-09 02:41:25,JetBlue,positive,,This is a positive tweet about JetBlue.
+72,2025-04-07 21:36:18,Virgin America,negative,Cancelled Flight,This is a negative tweet about Virgin America.
+73,2025-03-06 22:20:47,American,neutral,,This is a neutral tweet about American.
+74,2025-04-18 09:37:14,United,negative,Cancelled Flight,This is a negative tweet about United.
+75,2025-01-25 05:33:49,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+76,2025-03-22 20:23:16,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+77,2025-03-06 09:34:21,American,negative,Other Issue,This is a negative tweet about American.
+78,2025-02-12 01:45:34,Delta,positive,,This is a positive tweet about Delta.
+79,2025-03-09 06:47:31,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+80,2025-03-10 16:09:20,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+81,2025-01-23 15:49:06,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+82,2025-02-04 22:54:50,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+83,2025-01-24 09:54:36,Delta,negative,Late Flight,This is a negative tweet about Delta.
+84,2025-02-24 09:44:30,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+85,2025-03-02 00:52:26,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+86,2025-04-11 22:31:51,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+87,2025-03-25 13:54:23,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+88,2025-03-08 23:35:41,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+89,2025-01-19 15:23:19,United,negative,Other Issue,This is a negative tweet about United.
+90,2025-02-17 05:27:05,United,negative,Cancelled Flight,This is a negative tweet about United.
+91,2025-02-27 06:39:50,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+92,2025-01-22 15:56:59,American,neutral,,This is a neutral tweet about American.
+93,2025-03-12 20:16:23,Southwest,neutral,,This is a neutral tweet about Southwest.
+94,2025-02-17 03:26:32,Virgin America,positive,,This is a positive tweet about Virgin America.
+95,2025-03-09 03:43:13,Delta,neutral,,This is a neutral tweet about Delta.
+96,2025-02-01 20:36:26,Virgin America,positive,,This is a positive tweet about Virgin America.
+97,2025-03-28 05:41:05,Southwest,positive,,This is a positive tweet about Southwest.
+98,2025-03-17 06:10:10,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+99,2025-02-11 18:31:21,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+100,2025-02-20 19:25:44,Virgin America,positive,,This is a positive tweet about Virgin America.
+101,2025-03-26 03:59:49,US Airways,positive,,This is a positive tweet about US Airways.
+102,2025-02-20 03:17:56,Southwest,negative,Other Issue,This is a negative tweet about Southwest.
+103,2025-03-26 10:14:09,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+104,2025-02-16 02:08:58,JetBlue,negative,Lost Luggage,This is a negative tweet about JetBlue.
+105,2025-01-24 16:32:46,American,negative,Damaged Luggage,This is a negative tweet about American.
+106,2025-03-31 22:15:55,American,negative,Other Issue,This is a negative tweet about American.
+107,2025-02-18 00:13:29,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+108,2025-02-18 22:38:55,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+109,2025-03-27 12:49:46,Southwest,positive,,This is a positive tweet about Southwest.
+110,2025-03-06 20:11:05,Southwest,positive,,This is a positive tweet about Southwest.
+111,2025-02-24 17:22:07,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+112,2025-01-28 13:02:16,JetBlue,negative,Late Flight,This is a negative tweet about JetBlue.
+113,2025-01-22 15:07:16,Delta,negative,longlines,This is a negative tweet about Delta.
+114,2025-04-15 14:22:53,Southwest,positive,,This is a positive tweet about Southwest.
+115,2025-03-27 15:25:11,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+116,2025-03-21 03:32:42,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+117,2025-02-12 07:43:50,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+118,2025-04-05 01:24:33,Virgin America,negative,Late Flight,This is a negative tweet about Virgin America.
+119,2025-04-12 13:24:10,Virgin America,negative,Flight Booking Problems,This is a negative tweet about Virgin America.
+120,2025-04-16 18:41:18,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+121,2025-01-22 03:39:39,JetBlue,negative,Other Issue,This is a negative tweet about JetBlue.
+122,2025-03-25 07:44:48,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+123,2025-03-22 01:13:31,American,negative,Late Flight,This is a negative tweet about American.
+124,2025-03-07 19:11:03,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+125,2025-01-31 08:52:42,United,neutral,,This is a neutral tweet about United.
+126,2025-03-25 11:58:40,JetBlue,negative,Other Issue,This is a negative tweet about JetBlue.
+127,2025-02-21 11:43:19,Virgin America,negative,Late Flight,This is a negative tweet about Virgin America.
+128,2025-04-15 13:17:14,United,negative,Damaged Luggage,This is a negative tweet about United.
+129,2025-02-27 09:01:00,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+130,2025-02-20 00:36:54,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+131,2025-04-17 21:26:48,JetBlue,positive,,This is a positive tweet about JetBlue.
+132,2025-02-01 21:54:10,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+133,2025-01-26 17:21:37,American,negative,longlines,This is a negative tweet about American.
+134,2025-03-01 20:09:13,Delta,positive,,This is a positive tweet about Delta.
+135,2025-02-07 17:43:06,Virgin America,positive,,This is a positive tweet about Virgin America.
+136,2025-03-02 00:48:31,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+137,2025-04-12 08:42:54,United,neutral,,This is a neutral tweet about United.
+138,2025-01-24 10:33:04,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+139,2025-03-17 01:51:24,US Airways,positive,,This is a positive tweet about US Airways.
+140,2025-03-23 23:22:28,United,neutral,,This is a neutral tweet about United.
+141,2025-02-11 15:06:22,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+142,2025-03-23 15:17:26,JetBlue,positive,,This is a positive tweet about JetBlue.
+143,2025-01-24 23:24:11,United,neutral,,This is a neutral tweet about United.
+144,2025-02-22 05:57:15,Southwest,neutral,,This is a neutral tweet about Southwest.
+145,2025-04-15 04:17:39,United,positive,,This is a positive tweet about United.
+146,2025-02-21 03:49:58,Southwest,positive,,This is a positive tweet about Southwest.
+147,2025-02-01 01:06:48,American,negative,longlines,This is a negative tweet about American.
+148,2025-04-15 17:07:30,Delta,neutral,,This is a neutral tweet about Delta.
+149,2025-01-29 07:11:23,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+150,2025-02-22 22:58:15,Delta,neutral,,This is a neutral tweet about Delta.
+151,2025-03-07 06:59:02,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+152,2025-02-13 16:26:29,JetBlue,positive,,This is a positive tweet about JetBlue.
+153,2025-02-18 17:00:59,United,neutral,,This is a neutral tweet about United.
+154,2025-02-27 05:27:00,JetBlue,positive,,This is a positive tweet about JetBlue.
+155,2025-02-03 10:17:55,Delta,positive,,This is a positive tweet about Delta.
+156,2025-02-28 09:49:00,United,negative,Lost Luggage,This is a negative tweet about United.
+157,2025-04-09 04:15:58,Delta,neutral,,This is a neutral tweet about Delta.
+158,2025-01-29 19:19:08,American,positive,,This is a positive tweet about American.
+159,2025-01-26 16:11:25,Delta,neutral,,This is a neutral tweet about Delta.
+160,2025-04-01 18:51:18,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+161,2025-04-15 07:04:29,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+162,2025-03-06 15:07:15,American,negative,longlines,This is a negative tweet about American.
+163,2025-03-28 09:20:31,United,negative,Lost Luggage,This is a negative tweet about United.
+164,2025-04-15 18:32:56,United,negative,Flight Booking Problems,This is a negative tweet about United.
+165,2025-02-01 11:30:15,American,negative,longlines,This is a negative tweet about American.
+166,2025-03-06 02:46:45,JetBlue,positive,,This is a positive tweet about JetBlue.
+167,2025-02-26 17:05:00,Southwest,neutral,,This is a neutral tweet about Southwest.
+168,2025-01-24 14:42:35,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+169,2025-04-09 04:32:56,American,negative,Cancelled Flight,This is a negative tweet about American.
+170,2025-03-31 00:01:33,Virgin America,negative,Lost Luggage,This is a negative tweet about Virgin America.
+171,2025-03-21 06:21:20,United,negative,longlines,This is a negative tweet about United.
+172,2025-02-27 01:16:23,Southwest,positive,,This is a positive tweet about Southwest.
+173,2025-03-26 04:23:51,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+174,2025-03-03 12:58:46,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+175,2025-02-06 00:03:38,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+176,2025-03-12 16:35:52,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+177,2025-03-07 07:30:12,US Airways,positive,,This is a positive tweet about US Airways.
+178,2025-02-19 08:43:32,American,negative,Late Flight,This is a negative tweet about American.
+179,2025-02-13 21:35:38,United,negative,Cancelled Flight,This is a negative tweet about United.
+180,2025-04-02 13:02:07,American,positive,,This is a positive tweet about American.
+181,2025-03-24 22:22:02,JetBlue,positive,,This is a positive tweet about JetBlue.
+182,2025-03-04 03:12:42,United,negative,Lost Luggage,This is a negative tweet about United.
+183,2025-03-24 04:28:36,JetBlue,positive,,This is a positive tweet about JetBlue.
+184,2025-01-26 23:26:14,Virgin America,positive,,This is a positive tweet about Virgin America.
+185,2025-02-23 08:53:13,United,negative,Late Flight,This is a negative tweet about United.
+186,2025-02-02 15:26:07,Delta,positive,,This is a positive tweet about Delta.
+187,2025-02-27 09:55:09,United,negative,Flight Booking Problems,This is a negative tweet about United.
+188,2025-03-20 15:13:08,United,negative,Flight Booking Problems,This is a negative tweet about United.
+189,2025-03-09 01:10:07,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+190,2025-02-13 21:19:07,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+191,2025-02-14 10:14:58,Virgin America,negative,Other Issue,This is a negative tweet about Virgin America.
+192,2025-02-28 20:40:11,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+193,2025-04-03 14:10:32,United,negative,Customer Service Issue,This is a negative tweet about United.
+194,2025-04-16 23:47:29,Delta,positive,,This is a positive tweet about Delta.
+195,2025-03-30 03:59:39,United,positive,,This is a positive tweet about United.
+196,2025-03-27 11:33:56,American,neutral,,This is a neutral tweet about American.
+197,2025-03-03 15:54:55,US Airways,positive,,This is a positive tweet about US Airways.
+198,2025-02-25 18:37:47,Virgin America,positive,,This is a positive tweet about Virgin America.
+199,2025-02-11 19:55:02,American,neutral,,This is a neutral tweet about American.
+200,2025-03-05 05:50:09,United,positive,,This is a positive tweet about United.
+201,2025-03-31 11:55:06,US Airways,negative,longlines,This is a negative tweet about US Airways.
+202,2025-03-04 03:37:47,Southwest,positive,,This is a positive tweet about Southwest.
+203,2025-01-25 06:16:38,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+204,2025-03-15 11:45:20,American,negative,Other Issue,This is a negative tweet about American.
+205,2025-01-31 15:49:44,Southwest,positive,,This is a positive tweet about Southwest.
+206,2025-01-24 01:41:48,American,negative,Damaged Luggage,This is a negative tweet about American.
+207,2025-03-20 11:18:27,United,neutral,,This is a neutral tweet about United.
+208,2025-04-18 02:57:44,US Airways,positive,,This is a positive tweet about US Airways.
+209,2025-02-06 14:10:32,JetBlue,negative,Customer Service Issue,This is a negative tweet about JetBlue.
+210,2025-03-25 10:35:38,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+211,2025-04-14 08:24:08,Southwest,negative,longlines,This is a negative tweet about Southwest.
+212,2025-01-25 12:18:07,United,negative,Flight Booking Problems,This is a negative tweet about United.
+213,2025-03-14 05:20:47,United,neutral,,This is a neutral tweet about United.
+214,2025-03-30 14:30:35,American,neutral,,This is a neutral tweet about American.
+215,2025-04-09 00:45:00,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+216,2025-03-16 00:09:18,JetBlue,negative,Other Issue,This is a negative tweet about JetBlue.
+217,2025-03-16 09:59:53,United,negative,Lost Luggage,This is a negative tweet about United.
+218,2025-02-20 10:30:54,United,positive,,This is a positive tweet about United.
+219,2025-04-04 14:11:01,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+220,2025-01-23 02:35:46,Southwest,neutral,,This is a neutral tweet about Southwest.
+221,2025-03-01 14:13:44,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+222,2025-02-21 01:11:00,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+223,2025-01-31 00:40:36,US Airways,negative,longlines,This is a negative tweet about US Airways.
+224,2025-03-21 02:34:14,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+225,2025-03-18 10:45:50,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+226,2025-03-22 11:55:25,United,neutral,,This is a neutral tweet about United.
+227,2025-04-11 00:09:58,United,negative,Damaged Luggage,This is a negative tweet about United.
+228,2025-03-07 02:55:26,US Airways,negative,longlines,This is a negative tweet about US Airways.
+229,2025-04-02 12:37:42,JetBlue,negative,Cancelled Flight,This is a negative tweet about JetBlue.
+230,2025-02-15 02:57:12,Delta,positive,,This is a positive tweet about Delta.
+231,2025-02-13 18:00:49,JetBlue,positive,,This is a positive tweet about JetBlue.
+232,2025-02-27 09:56:48,Delta,negative,Flight Attendant Complaints,This is a negative tweet about Delta.
+233,2025-01-28 13:48:17,Southwest,neutral,,This is a neutral tweet about Southwest.
+234,2025-01-30 16:03:42,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+235,2025-01-27 15:11:58,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+236,2025-01-22 11:49:33,American,neutral,,This is a neutral tweet about American.
+237,2025-03-26 00:10:26,JetBlue,positive,,This is a positive tweet about JetBlue.
+238,2025-01-27 15:30:19,American,negative,Flight Booking Problems,This is a negative tweet about American.
+239,2025-01-29 01:30:08,Southwest,neutral,,This is a neutral tweet about Southwest.
+240,2025-02-13 11:01:20,US Airways,positive,,This is a positive tweet about US Airways.
+241,2025-03-28 14:07:30,JetBlue,negative,Late Flight,This is a negative tweet about JetBlue.
+242,2025-03-27 15:51:46,American,neutral,,This is a neutral tweet about American.
+243,2025-03-11 09:54:04,US Airways,positive,,This is a positive tweet about US Airways.
+244,2025-04-07 18:42:16,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+245,2025-02-21 11:03:46,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+246,2025-03-17 08:35:37,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+247,2025-01-31 06:46:00,Delta,negative,longlines,This is a negative tweet about Delta.
+248,2025-02-25 01:02:02,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+249,2025-04-16 07:27:27,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+250,2025-02-18 22:26:02,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+251,2025-03-31 13:31:04,JetBlue,negative,Customer Service Issue,This is a negative tweet about JetBlue.
+252,2025-03-29 13:22:45,US Airways,positive,,This is a positive tweet about US Airways.
+253,2025-03-29 05:35:46,American,negative,Late Flight,This is a negative tweet about American.
+254,2025-01-19 09:40:03,US Airways,negative,Customer Service Issue,This is a negative tweet about US Airways.
+255,2025-03-12 10:23:57,American,negative,Customer Service Issue,This is a negative tweet about American.
+256,2025-03-14 07:45:33,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+257,2025-03-06 08:41:52,Southwest,negative,Other Issue,This is a negative tweet about Southwest.
+258,2025-02-14 13:17:15,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+259,2025-02-01 17:21:27,American,negative,Cancelled Flight,This is a negative tweet about American.
+260,2025-03-29 11:47:26,JetBlue,positive,,This is a positive tweet about JetBlue.
+261,2025-01-22 09:41:21,Virgin America,positive,,This is a positive tweet about Virgin America.
+262,2025-04-08 02:02:46,US Airways,negative,longlines,This is a negative tweet about US Airways.
+263,2025-02-05 22:55:40,United,positive,,This is a positive tweet about United.
+264,2025-04-19 04:01:49,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+265,2025-03-18 02:20:18,United,negative,Bad Flight,This is a negative tweet about United.
+266,2025-03-05 14:20:31,Delta,negative,Other Issue,This is a negative tweet about Delta.
+267,2025-02-02 17:33:26,Virgin America,negative,Lost Luggage,This is a negative tweet about Virgin America.
+268,2025-02-03 05:33:53,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+269,2025-02-28 20:28:02,American,negative,Bad Flight,This is a negative tweet about American.
+270,2025-03-25 03:02:16,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+271,2025-02-08 09:01:47,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+272,2025-03-13 16:03:23,United,negative,Bad Flight,This is a negative tweet about United.
+273,2025-02-04 01:02:26,Delta,positive,,This is a positive tweet about Delta.
+274,2025-03-13 13:46:55,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+275,2025-04-03 08:31:35,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+276,2025-02-12 04:51:44,US Airways,neutral,,This is a neutral tweet about US Airways.
+277,2025-01-19 06:58:01,US Airways,negative,Customer Service Issue,This is a negative tweet about US Airways.
+278,2025-04-10 01:51:59,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+279,2025-03-13 10:59:45,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+280,2025-04-13 09:01:00,American,negative,Flight Attendant Complaints,This is a negative tweet about American.
+281,2025-02-04 07:19:42,Virgin America,positive,,This is a positive tweet about Virgin America.
+282,2025-03-10 23:37:25,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+283,2025-02-07 08:37:11,United,positive,,This is a positive tweet about United.
+284,2025-02-13 16:11:37,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+285,2025-02-16 23:23:05,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+286,2025-03-16 18:42:01,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+287,2025-02-01 09:46:51,Delta,positive,,This is a positive tweet about Delta.
+288,2025-04-02 08:37:30,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+289,2025-02-13 02:38:58,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+290,2025-01-20 05:48:09,Delta,positive,,This is a positive tweet about Delta.
+291,2025-02-28 23:39:31,Southwest,negative,longlines,This is a negative tweet about Southwest.
+292,2025-04-03 04:04:32,United,negative,longlines,This is a negative tweet about United.
+293,2025-02-14 09:58:07,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+294,2025-02-18 18:57:16,Southwest,neutral,,This is a neutral tweet about Southwest.
+295,2025-02-18 17:02:37,American,negative,Late Flight,This is a negative tweet about American.
+296,2025-04-01 14:54:12,Delta,positive,,This is a positive tweet about Delta.
+297,2025-03-12 20:05:36,American,positive,,This is a positive tweet about American.
+298,2025-03-13 20:36:50,JetBlue,positive,,This is a positive tweet about JetBlue.
+299,2025-03-19 06:43:39,United,negative,Other Issue,This is a negative tweet about United.
+300,2025-01-31 01:36:24,Delta,negative,longlines,This is a negative tweet about Delta.
+301,2025-04-19 04:26:39,United,positive,,This is a positive tweet about United.
+302,2025-03-30 00:53:22,Southwest,neutral,,This is a neutral tweet about Southwest.
+303,2025-02-23 03:51:55,Delta,positive,,This is a positive tweet about Delta.
+304,2025-01-26 13:08:59,American,positive,,This is a positive tweet about American.
+305,2025-02-03 12:20:35,American,neutral,,This is a neutral tweet about American.
+306,2025-04-19 01:47:10,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+307,2025-02-06 13:33:54,US Airways,positive,,This is a positive tweet about US Airways.
+308,2025-03-09 08:52:59,Southwest,negative,longlines,This is a negative tweet about Southwest.
+309,2025-01-23 19:30:05,JetBlue,negative,Other Issue,This is a negative tweet about JetBlue.
+310,2025-03-01 23:54:23,American,positive,,This is a positive tweet about American.
+311,2025-03-05 14:49:45,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+312,2025-01-23 11:44:03,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+313,2025-04-02 09:09:38,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+314,2025-04-18 17:25:36,Virgin America,positive,,This is a positive tweet about Virgin America.
+315,2025-01-30 11:03:22,Southwest,positive,,This is a positive tweet about Southwest.
+316,2025-03-19 04:17:07,Delta,negative,Customer Service Issue,This is a negative tweet about Delta.
+317,2025-03-05 03:29:33,United,negative,longlines,This is a negative tweet about United.
+318,2025-04-19 01:26:13,Delta,neutral,,This is a neutral tweet about Delta.
+319,2025-03-26 06:10:32,US Airways,positive,,This is a positive tweet about US Airways.
+320,2025-02-09 10:13:03,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+321,2025-04-11 05:50:00,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+322,2025-04-12 21:56:08,United,positive,,This is a positive tweet about United.
+323,2025-03-09 16:50:19,United,neutral,,This is a neutral tweet about United.
+324,2025-01-30 18:50:26,US Airways,positive,,This is a positive tweet about US Airways.
+325,2025-04-09 17:35:00,US Airways,neutral,,This is a neutral tweet about US Airways.
+326,2025-04-05 12:09:24,American,negative,Flight Booking Problems,This is a negative tweet about American.
+327,2025-02-10 11:12:53,United,negative,Bad Flight,This is a negative tweet about United.
+328,2025-03-11 12:58:02,American,negative,Bad Flight,This is a negative tweet about American.
+329,2025-01-31 19:34:52,US Airways,neutral,,This is a neutral tweet about US Airways.
+330,2025-03-30 08:33:23,Virgin America,positive,,This is a positive tweet about Virgin America.
+331,2025-02-05 19:51:02,JetBlue,positive,,This is a positive tweet about JetBlue.
+332,2025-02-04 10:29:41,Southwest,positive,,This is a positive tweet about Southwest.
+333,2025-04-14 06:13:13,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+334,2025-03-07 00:45:55,Delta,positive,,This is a positive tweet about Delta.
+335,2025-02-01 09:25:11,United,negative,Flight Booking Problems,This is a negative tweet about United.
+336,2025-02-14 06:18:07,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+337,2025-01-21 12:51:19,Delta,negative,Late Flight,This is a negative tweet about Delta.
+338,2025-02-21 20:35:59,US Airways,neutral,,This is a neutral tweet about US Airways.
+339,2025-02-13 19:22:11,United,negative,Flight Booking Problems,This is a negative tweet about United.
+340,2025-01-21 07:27:44,Delta,neutral,,This is a neutral tweet about Delta.
+341,2025-02-16 16:28:45,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+342,2025-03-28 21:25:46,Southwest,neutral,,This is a neutral tweet about Southwest.
+343,2025-04-01 17:01:36,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+344,2025-03-31 00:42:47,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+345,2025-03-09 10:19:12,Delta,negative,longlines,This is a negative tweet about Delta.
+346,2025-04-02 08:35:01,American,negative,Late Flight,This is a negative tweet about American.
+347,2025-03-12 23:50:56,American,neutral,,This is a neutral tweet about American.
+348,2025-03-17 14:11:17,Virgin America,positive,,This is a positive tweet about Virgin America.
+349,2025-04-19 10:22:09,American,negative,Bad Flight,This is a negative tweet about American.
+350,2025-01-28 16:49:04,Delta,positive,,This is a positive tweet about Delta.
+351,2025-01-20 13:04:32,Southwest,negative,Cancelled Flight,This is a negative tweet about Southwest.
+352,2025-03-12 06:53:43,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+353,2025-04-01 10:02:56,US Airways,negative,Late Flight,This is a negative tweet about US Airways.
+354,2025-01-30 12:16:13,Delta,negative,Customer Service Issue,This is a negative tweet about Delta.
+355,2025-03-18 03:05:12,American,negative,Flight Attendant Complaints,This is a negative tweet about American.
+356,2025-03-08 14:15:17,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+357,2025-03-23 21:04:18,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+358,2025-03-09 16:37:05,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+359,2025-02-14 11:13:39,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+360,2025-02-21 10:44:23,US Airways,neutral,,This is a neutral tweet about US Airways.
+361,2025-04-11 16:37:14,Southwest,negative,Other Issue,This is a negative tweet about Southwest.
+362,2025-01-27 10:05:26,JetBlue,positive,,This is a positive tweet about JetBlue.
+363,2025-01-26 12:50:22,United,negative,Cancelled Flight,This is a negative tweet about United.
+364,2025-02-20 13:28:35,United,positive,,This is a positive tweet about United.
+365,2025-02-08 08:47:36,Southwest,neutral,,This is a neutral tweet about Southwest.
+366,2025-03-07 00:13:38,JetBlue,negative,Customer Service Issue,This is a negative tweet about JetBlue.
+367,2025-03-18 06:08:01,United,positive,,This is a positive tweet about United.
+368,2025-04-11 06:58:15,American,positive,,This is a positive tweet about American.
+369,2025-04-16 00:00:52,American,negative,Cancelled Flight,This is a negative tweet about American.
+370,2025-03-30 20:49:28,American,positive,,This is a positive tweet about American.
+371,2025-03-21 06:17:22,American,negative,Flight Booking Problems,This is a negative tweet about American.
+372,2025-03-03 22:51:17,Southwest,positive,,This is a positive tweet about Southwest.
+373,2025-03-14 21:55:24,American,negative,Flight Attendant Complaints,This is a negative tweet about American.
+374,2025-02-21 04:00:40,US Airways,neutral,,This is a neutral tweet about US Airways.
+375,2025-02-10 20:01:30,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+376,2025-01-27 15:21:27,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+377,2025-02-28 12:53:15,United,negative,Damaged Luggage,This is a negative tweet about United.
+378,2025-02-02 05:09:51,Virgin America,positive,,This is a positive tweet about Virgin America.
+379,2025-02-10 12:09:14,American,negative,Late Flight,This is a negative tweet about American.
+380,2025-04-15 09:15:13,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+381,2025-02-10 18:18:50,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+382,2025-04-19 11:55:42,JetBlue,negative,Customer Service Issue,This is a negative tweet about JetBlue.
+383,2025-02-14 03:19:35,American,neutral,,This is a neutral tweet about American.
+384,2025-04-05 13:14:49,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+385,2025-04-02 07:54:39,JetBlue,positive,,This is a positive tweet about JetBlue.
+386,2025-04-01 14:06:45,United,negative,Bad Flight,This is a negative tweet about United.
+387,2025-02-14 20:43:09,United,negative,Late Flight,This is a negative tweet about United.
+388,2025-03-23 00:30:16,US Airways,negative,longlines,This is a negative tweet about US Airways.
+389,2025-01-28 18:25:22,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+390,2025-03-29 19:51:31,JetBlue,positive,,This is a positive tweet about JetBlue.
+391,2025-03-28 15:35:23,United,negative,Flight Booking Problems,This is a negative tweet about United.
+392,2025-04-01 15:19:17,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+393,2025-03-26 13:54:14,American,negative,Damaged Luggage,This is a negative tweet about American.
+394,2025-02-21 17:26:33,Delta,positive,,This is a positive tweet about Delta.
+395,2025-02-19 01:35:01,US Airways,positive,,This is a positive tweet about US Airways.
+396,2025-03-20 18:47:11,Delta,positive,,This is a positive tweet about Delta.
+397,2025-03-11 21:53:59,United,neutral,,This is a neutral tweet about United.
+398,2025-03-24 20:14:40,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+399,2025-04-15 16:03:24,US Airways,negative,longlines,This is a negative tweet about US Airways.
+400,2025-02-10 19:49:38,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+401,2025-03-01 15:56:25,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+402,2025-02-05 05:58:05,Delta,negative,Bad Flight,This is a negative tweet about Delta.
+403,2025-01-28 16:32:52,United,negative,Cancelled Flight,This is a negative tweet about United.
+404,2025-02-16 12:10:46,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+405,2025-01-24 12:36:22,American,negative,Other Issue,This is a negative tweet about American.
+406,2025-03-07 00:47:44,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+407,2025-01-27 08:45:10,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+408,2025-03-11 17:34:21,Virgin America,positive,,This is a positive tweet about Virgin America.
+409,2025-02-25 03:26:45,United,neutral,,This is a neutral tweet about United.
+410,2025-03-14 17:00:06,Southwest,neutral,,This is a neutral tweet about Southwest.
+411,2025-01-26 19:58:12,American,positive,,This is a positive tweet about American.
+412,2025-02-10 14:41:53,JetBlue,negative,Other Issue,This is a negative tweet about JetBlue.
+413,2025-01-21 20:56:24,American,negative,Damaged Luggage,This is a negative tweet about American.
+414,2025-03-28 05:17:06,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+415,2025-04-17 04:54:36,Southwest,neutral,,This is a neutral tweet about Southwest.
+416,2025-02-19 10:31:06,Southwest,negative,Cancelled Flight,This is a negative tweet about Southwest.
+417,2025-01-31 20:51:13,Virgin America,negative,Late Flight,This is a negative tweet about Virgin America.
+418,2025-01-23 09:41:53,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+419,2025-02-23 09:38:17,American,negative,Lost Luggage,This is a negative tweet about American.
+420,2025-03-20 18:44:26,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+421,2025-03-25 14:19:20,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+422,2025-02-05 08:46:13,JetBlue,negative,Late Flight,This is a negative tweet about JetBlue.
+423,2025-02-21 01:17:00,US Airways,negative,Customer Service Issue,This is a negative tweet about US Airways.
+424,2025-04-08 06:14:24,Virgin America,positive,,This is a positive tweet about Virgin America.
+425,2025-03-29 08:18:04,American,negative,Bad Flight,This is a negative tweet about American.
+426,2025-03-02 02:02:16,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+427,2025-04-03 05:31:02,Delta,negative,Flight Attendant Complaints,This is a negative tweet about Delta.
+428,2025-02-12 17:35:16,Southwest,positive,,This is a positive tweet about Southwest.
+429,2025-01-27 02:07:25,American,neutral,,This is a neutral tweet about American.
+430,2025-04-07 20:32:32,Delta,negative,Customer Service Issue,This is a negative tweet about Delta.
+431,2025-03-24 04:43:13,American,neutral,,This is a neutral tweet about American.
+432,2025-04-14 05:45:35,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+433,2025-03-09 01:36:54,US Airways,positive,,This is a positive tweet about US Airways.
+434,2025-03-03 18:45:22,United,positive,,This is a positive tweet about United.
+435,2025-02-17 15:36:25,JetBlue,negative,Flight Attendant Complaints,This is a negative tweet about JetBlue.
+436,2025-03-11 20:45:11,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+437,2025-02-04 04:13:47,JetBlue,negative,Flight Booking Problems,This is a negative tweet about JetBlue.
+438,2025-04-14 11:20:00,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+439,2025-03-28 12:24:13,US Airways,neutral,,This is a neutral tweet about US Airways.
+440,2025-03-31 06:17:18,US Airways,neutral,,This is a neutral tweet about US Airways.
+441,2025-02-18 04:07:03,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+442,2025-02-23 06:12:49,American,positive,,This is a positive tweet about American.
+443,2025-04-16 05:17:05,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+444,2025-02-10 06:55:39,American,positive,,This is a positive tweet about American.
+445,2025-01-25 19:03:29,JetBlue,negative,Damaged Luggage,This is a negative tweet about JetBlue.
+446,2025-03-10 20:04:26,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+447,2025-02-06 18:28:12,US Airways,neutral,,This is a neutral tweet about US Airways.
+448,2025-03-06 07:25:38,Delta,negative,Flight Attendant Complaints,This is a negative tweet about Delta.
+449,2025-02-24 02:32:55,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+450,2025-03-30 05:02:35,Southwest,positive,,This is a positive tweet about Southwest.
+451,2025-01-28 18:11:00,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+452,2025-03-03 21:06:54,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+453,2025-01-19 00:04:45,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+454,2025-04-09 07:48:07,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+455,2025-04-18 16:22:04,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+456,2025-02-23 02:01:59,Southwest,positive,,This is a positive tweet about Southwest.
+457,2025-03-08 21:07:02,Virgin America,negative,Flight Booking Problems,This is a negative tweet about Virgin America.
+458,2025-02-17 13:57:14,Southwest,neutral,,This is a neutral tweet about Southwest.
+459,2025-03-10 04:13:25,JetBlue,positive,,This is a positive tweet about JetBlue.
+460,2025-01-20 03:22:01,Virgin America,positive,,This is a positive tweet about Virgin America.
+461,2025-04-15 09:04:02,JetBlue,positive,,This is a positive tweet about JetBlue.
+462,2025-04-04 15:40:06,Southwest,neutral,,This is a neutral tweet about Southwest.
+463,2025-02-26 07:58:32,Virgin America,negative,Lost Luggage,This is a negative tweet about Virgin America.
+464,2025-04-12 07:18:34,American,neutral,,This is a neutral tweet about American.
+465,2025-02-06 18:59:43,United,positive,,This is a positive tweet about United.
+466,2025-01-23 06:34:55,United,neutral,,This is a neutral tweet about United.
+467,2025-02-22 12:10:13,United,neutral,,This is a neutral tweet about United.
+468,2025-02-18 16:15:52,American,positive,,This is a positive tweet about American.
+469,2025-04-14 05:16:30,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+470,2025-04-19 07:06:55,Virgin America,positive,,This is a positive tweet about Virgin America.
+471,2025-03-02 22:33:14,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+472,2025-04-12 09:24:52,American,neutral,,This is a neutral tweet about American.
+473,2025-04-02 07:54:30,US Airways,negative,Customer Service Issue,This is a negative tweet about US Airways.
+474,2025-01-20 09:04:08,American,neutral,,This is a neutral tweet about American.
+475,2025-04-16 11:43:17,United,positive,,This is a positive tweet about United.
+476,2025-04-07 23:51:59,American,negative,Lost Luggage,This is a negative tweet about American.
+477,2025-04-03 05:43:44,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+478,2025-03-06 17:39:17,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+479,2025-03-13 17:54:14,Southwest,positive,,This is a positive tweet about Southwest.
+480,2025-02-09 12:57:26,United,negative,Flight Booking Problems,This is a negative tweet about United.
+481,2025-01-20 18:41:35,US Airways,positive,,This is a positive tweet about US Airways.
+482,2025-02-17 15:13:48,US Airways,positive,,This is a positive tweet about US Airways.
+483,2025-02-22 03:22:49,United,positive,,This is a positive tweet about United.
+484,2025-02-26 19:21:09,JetBlue,positive,,This is a positive tweet about JetBlue.
+485,2025-03-22 01:58:03,JetBlue,positive,,This is a positive tweet about JetBlue.
+486,2025-04-07 13:58:08,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+487,2025-03-21 01:51:07,US Airways,positive,,This is a positive tweet about US Airways.
+488,2025-03-22 08:16:46,Delta,positive,,This is a positive tweet about Delta.
+489,2025-03-22 17:05:17,US Airways,positive,,This is a positive tweet about US Airways.
+490,2025-04-06 02:15:01,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+491,2025-02-12 15:38:55,Delta,neutral,,This is a neutral tweet about Delta.
+492,2025-04-14 16:15:05,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+493,2025-02-14 10:16:36,United,negative,Late Flight,This is a negative tweet about United.
+494,2025-02-09 10:48:42,Delta,positive,,This is a positive tweet about Delta.
+495,2025-02-21 08:01:46,Delta,neutral,,This is a neutral tweet about Delta.
+496,2025-02-26 23:18:35,JetBlue,negative,Other Issue,This is a negative tweet about JetBlue.
+497,2025-01-25 15:45:16,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+498,2025-04-12 02:40:01,Southwest,positive,,This is a positive tweet about Southwest.
+499,2025-03-21 07:57:47,US Airways,neutral,,This is a neutral tweet about US Airways.
+500,2025-02-24 22:45:59,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+501,2025-03-24 08:17:33,United,positive,,This is a positive tweet about United.
+502,2025-04-19 05:18:17,Southwest,positive,,This is a positive tweet about Southwest.
+503,2025-03-18 04:17:54,American,neutral,,This is a neutral tweet about American.
+504,2025-03-30 01:10:23,American,negative,Late Flight,This is a negative tweet about American.
+505,2025-03-29 02:59:21,United,neutral,,This is a neutral tweet about United.
+506,2025-04-03 23:29:04,American,neutral,,This is a neutral tweet about American.
+507,2025-02-23 00:00:55,Southwest,neutral,,This is a neutral tweet about Southwest.
+508,2025-02-20 05:59:43,US Airways,negative,longlines,This is a negative tweet about US Airways.
+509,2025-02-01 03:39:32,Delta,positive,,This is a positive tweet about Delta.
+510,2025-03-16 22:52:06,American,positive,,This is a positive tweet about American.
+511,2025-04-13 11:18:21,Southwest,positive,,This is a positive tweet about Southwest.
+512,2025-04-17 03:14:02,JetBlue,negative,Cancelled Flight,This is a negative tweet about JetBlue.
+513,2025-02-16 22:14:24,Virgin America,negative,Late Flight,This is a negative tweet about Virgin America.
+514,2025-02-09 07:20:17,Virgin America,positive,,This is a positive tweet about Virgin America.
+515,2025-01-25 07:34:25,Southwest,positive,,This is a positive tweet about Southwest.
+516,2025-04-11 12:05:17,US Airways,negative,Customer Service Issue,This is a negative tweet about US Airways.
+517,2025-02-12 10:45:40,Virgin America,negative,Lost Luggage,This is a negative tweet about Virgin America.
+518,2025-01-25 14:47:21,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+519,2025-04-05 21:13:50,Southwest,positive,,This is a positive tweet about Southwest.
+520,2025-02-10 07:20:43,Delta,negative,Other Issue,This is a negative tweet about Delta.
+521,2025-03-19 04:53:53,Virgin America,negative,Cancelled Flight,This is a negative tweet about Virgin America.
+522,2025-01-23 04:11:06,Virgin America,positive,,This is a positive tweet about Virgin America.
+523,2025-01-29 00:49:05,US Airways,neutral,,This is a neutral tweet about US Airways.
+524,2025-02-26 23:29:56,American,negative,Customer Service Issue,This is a negative tweet about American.
+525,2025-01-30 13:19:44,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+526,2025-04-09 15:27:22,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+527,2025-02-21 00:12:08,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+528,2025-03-24 19:01:27,Delta,negative,longlines,This is a negative tweet about Delta.
+529,2025-01-22 11:23:52,American,negative,Damaged Luggage,This is a negative tweet about American.
+530,2025-03-24 15:14:28,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+531,2025-03-28 07:34:26,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+532,2025-02-27 13:23:45,United,negative,Late Flight,This is a negative tweet about United.
+533,2025-03-30 09:41:10,Southwest,neutral,,This is a neutral tweet about Southwest.
+534,2025-01-21 03:00:14,JetBlue,positive,,This is a positive tweet about JetBlue.
+535,2025-03-23 07:10:25,Delta,neutral,,This is a neutral tweet about Delta.
+536,2025-02-28 15:16:03,United,neutral,,This is a neutral tweet about United.
+537,2025-03-09 02:52:21,Southwest,positive,,This is a positive tweet about Southwest.
+538,2025-01-31 03:52:16,Southwest,neutral,,This is a neutral tweet about Southwest.
+539,2025-03-07 17:41:11,Southwest,negative,Cancelled Flight,This is a negative tweet about Southwest.
+540,2025-03-21 11:13:53,American,negative,Cancelled Flight,This is a negative tweet about American.
+541,2025-03-31 06:38:21,Southwest,neutral,,This is a neutral tweet about Southwest.
+542,2025-03-29 22:39:42,American,neutral,,This is a neutral tweet about American.
+543,2025-04-16 10:33:54,US Airways,negative,Late Flight,This is a negative tweet about US Airways.
+544,2025-02-20 19:09:43,US Airways,neutral,,This is a neutral tweet about US Airways.
+545,2025-03-17 01:45:04,Southwest,neutral,,This is a neutral tweet about Southwest.
+546,2025-02-17 06:42:43,American,negative,Late Flight,This is a negative tweet about American.
+547,2025-04-16 16:08:43,Southwest,positive,,This is a positive tweet about Southwest.
+548,2025-03-08 08:55:34,US Airways,negative,longlines,This is a negative tweet about US Airways.
+549,2025-04-15 07:38:07,US Airways,positive,,This is a positive tweet about US Airways.
+550,2025-02-13 12:28:25,US Airways,positive,,This is a positive tweet about US Airways.
+551,2025-03-25 03:10:08,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+552,2025-02-05 14:20:21,United,positive,,This is a positive tweet about United.
+553,2025-04-19 05:52:23,US Airways,positive,,This is a positive tweet about US Airways.
+554,2025-02-04 18:59:46,United,positive,,This is a positive tweet about United.
+555,2025-02-03 15:33:37,United,positive,,This is a positive tweet about United.
+556,2025-01-20 16:30:19,JetBlue,positive,,This is a positive tweet about JetBlue.
+557,2025-02-09 04:55:07,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+558,2025-04-17 22:09:25,United,neutral,,This is a neutral tweet about United.
+559,2025-02-12 11:29:02,Southwest,positive,,This is a positive tweet about Southwest.
+560,2025-03-25 12:47:18,Virgin America,negative,Flight Booking Problems,This is a negative tweet about Virgin America.
+561,2025-03-17 18:13:06,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+562,2025-03-31 01:59:11,Virgin America,positive,,This is a positive tweet about Virgin America.
+563,2025-02-24 21:41:03,Delta,negative,longlines,This is a negative tweet about Delta.
+564,2025-04-01 12:23:35,American,negative,longlines,This is a negative tweet about American.
+565,2025-01-26 14:02:31,Delta,negative,longlines,This is a negative tweet about Delta.
+566,2025-02-24 22:00:51,Southwest,positive,,This is a positive tweet about Southwest.
+567,2025-03-12 01:53:51,JetBlue,positive,,This is a positive tweet about JetBlue.
+568,2025-03-12 10:07:43,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+569,2025-03-01 08:48:22,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+570,2025-03-03 19:31:04,American,negative,Customer Service Issue,This is a negative tweet about American.
+571,2025-03-26 21:53:02,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+572,2025-03-13 19:12:04,United,negative,Other Issue,This is a negative tweet about United.
+573,2025-01-22 22:01:21,American,neutral,,This is a neutral tweet about American.
+574,2025-02-21 12:43:19,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+575,2025-01-22 22:26:45,Delta,negative,longlines,This is a negative tweet about Delta.
+576,2025-02-24 12:57:41,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+577,2025-03-23 10:07:31,Delta,positive,,This is a positive tweet about Delta.
+578,2025-04-07 05:43:18,American,negative,longlines,This is a negative tweet about American.
+579,2025-02-23 10:41:20,US Airways,positive,,This is a positive tweet about US Airways.
+580,2025-04-13 06:23:25,JetBlue,negative,Late Flight,This is a negative tweet about JetBlue.
+581,2025-02-13 08:40:11,Virgin America,positive,,This is a positive tweet about Virgin America.
+582,2025-02-20 13:27:49,United,positive,,This is a positive tweet about United.
+583,2025-01-18 22:23:04,Southwest,positive,,This is a positive tweet about Southwest.
+584,2025-03-11 12:31:30,American,negative,longlines,This is a negative tweet about American.
+585,2025-03-07 10:34:26,United,positive,,This is a positive tweet about United.
+586,2025-02-01 09:09:32,American,neutral,,This is a neutral tweet about American.
+587,2025-04-03 02:30:59,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+588,2025-03-26 02:31:31,Delta,neutral,,This is a neutral tweet about Delta.
+589,2025-02-28 01:28:19,American,positive,,This is a positive tweet about American.
+590,2025-01-24 23:39:37,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+591,2025-04-06 04:44:48,American,negative,Other Issue,This is a negative tweet about American.
+592,2025-01-31 18:38:01,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+593,2025-04-06 22:17:56,JetBlue,positive,,This is a positive tweet about JetBlue.
+594,2025-03-14 14:53:49,American,negative,Customer Service Issue,This is a negative tweet about American.
+595,2025-02-11 20:43:21,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+596,2025-03-15 11:47:43,Southwest,neutral,,This is a neutral tweet about Southwest.
+597,2025-03-27 15:09:33,Southwest,neutral,,This is a neutral tweet about Southwest.
+598,2025-01-19 04:57:37,United,neutral,,This is a neutral tweet about United.
+599,2025-02-12 18:19:40,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+600,2025-02-24 22:12:06,Southwest,neutral,,This is a neutral tweet about Southwest.
+601,2025-02-27 11:11:45,Virgin America,positive,,This is a positive tweet about Virgin America.
+602,2025-02-14 22:33:39,American,positive,,This is a positive tweet about American.
+603,2025-02-20 01:08:07,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+604,2025-02-07 16:12:31,JetBlue,positive,,This is a positive tweet about JetBlue.
+605,2025-04-14 20:00:21,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+606,2025-02-24 05:52:50,Delta,neutral,,This is a neutral tweet about Delta.
+607,2025-01-19 01:27:36,Southwest,neutral,,This is a neutral tweet about Southwest.
+608,2025-02-21 07:36:50,Delta,positive,,This is a positive tweet about Delta.
+609,2025-02-23 09:37:02,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+610,2025-04-10 23:06:51,JetBlue,positive,,This is a positive tweet about JetBlue.
+611,2025-04-09 05:37:14,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+612,2025-04-07 14:08:53,US Airways,positive,,This is a positive tweet about US Airways.
+613,2025-03-13 12:31:59,JetBlue,negative,Damaged Luggage,This is a negative tweet about JetBlue.
+614,2025-04-07 15:44:24,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+615,2025-03-22 00:58:22,United,negative,longlines,This is a negative tweet about United.
+616,2025-02-26 06:04:43,United,negative,Other Issue,This is a negative tweet about United.
+617,2025-01-20 21:12:40,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+618,2025-03-15 05:27:21,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+619,2025-03-21 01:19:47,American,positive,,This is a positive tweet about American.
+620,2025-01-22 12:25:06,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+621,2025-03-14 08:04:43,United,negative,Other Issue,This is a negative tweet about United.
+622,2025-04-18 04:28:29,Southwest,positive,,This is a positive tweet about Southwest.
+623,2025-03-27 13:12:42,Virgin America,positive,,This is a positive tweet about Virgin America.
+624,2025-01-24 04:38:17,Southwest,negative,Cancelled Flight,This is a negative tweet about Southwest.
+625,2025-03-16 12:44:06,American,positive,,This is a positive tweet about American.
+626,2025-03-31 21:57:53,Delta,positive,,This is a positive tweet about Delta.
+627,2025-01-31 18:55:10,American,positive,,This is a positive tweet about American.
+628,2025-03-12 00:05:27,Delta,negative,Other Issue,This is a negative tweet about Delta.
+629,2025-01-25 16:04:08,American,negative,Customer Service Issue,This is a negative tweet about American.
+630,2025-03-27 10:11:26,JetBlue,positive,,This is a positive tweet about JetBlue.
+631,2025-04-06 17:39:28,JetBlue,positive,,This is a positive tweet about JetBlue.
+632,2025-01-21 08:48:04,US Airways,positive,,This is a positive tweet about US Airways.
+633,2025-03-29 18:54:04,American,negative,longlines,This is a negative tweet about American.
+634,2025-02-20 00:20:46,American,negative,Bad Flight,This is a negative tweet about American.
+635,2025-02-26 18:50:31,JetBlue,negative,Cancelled Flight,This is a negative tweet about JetBlue.
+636,2025-02-05 16:30:38,Delta,negative,Customer Service Issue,This is a negative tweet about Delta.
+637,2025-02-12 16:38:00,US Airways,neutral,,This is a neutral tweet about US Airways.
+638,2025-03-22 15:54:06,Delta,negative,Late Flight,This is a negative tweet about Delta.
+639,2025-01-31 06:11:49,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+640,2025-02-21 21:49:47,Delta,positive,,This is a positive tweet about Delta.
+641,2025-02-01 02:53:17,JetBlue,positive,,This is a positive tweet about JetBlue.
+642,2025-02-12 04:40:56,United,neutral,,This is a neutral tweet about United.
+643,2025-04-05 05:11:57,United,negative,Lost Luggage,This is a negative tweet about United.
+644,2025-01-24 13:05:26,US Airways,negative,Late Flight,This is a negative tweet about US Airways.
+645,2025-04-19 13:23:48,JetBlue,negative,Late Flight,This is a negative tweet about JetBlue.
+646,2025-02-20 14:24:44,JetBlue,positive,,This is a positive tweet about JetBlue.
+647,2025-03-18 08:39:45,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+648,2025-03-27 04:38:35,Virgin America,positive,,This is a positive tweet about Virgin America.
+649,2025-02-13 15:37:40,JetBlue,negative,Damaged Luggage,This is a negative tweet about JetBlue.
+650,2025-04-11 14:40:45,Delta,positive,,This is a positive tweet about Delta.
+651,2025-04-11 15:24:35,American,negative,Flight Booking Problems,This is a negative tweet about American.
+652,2025-03-12 19:10:05,US Airways,neutral,,This is a neutral tweet about US Airways.
+653,2025-03-26 00:49:18,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+654,2025-02-13 11:32:40,United,negative,Damaged Luggage,This is a negative tweet about United.
+655,2025-03-03 22:30:40,American,negative,Customer Service Issue,This is a negative tweet about American.
+656,2025-03-17 15:56:32,Delta,negative,Late Flight,This is a negative tweet about Delta.
+657,2025-02-22 17:53:45,Delta,positive,,This is a positive tweet about Delta.
+658,2025-02-21 05:13:59,American,neutral,,This is a neutral tweet about American.
+659,2025-03-15 13:55:40,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+660,2025-03-07 16:34:59,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+661,2025-04-17 15:43:49,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+662,2025-04-09 13:54:39,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+663,2025-03-19 09:02:41,JetBlue,negative,Flight Booking Problems,This is a negative tweet about JetBlue.
+664,2025-03-03 14:49:29,Virgin America,negative,Flight Booking Problems,This is a negative tweet about Virgin America.
+665,2025-03-23 10:18:24,American,positive,,This is a positive tweet about American.
+666,2025-01-30 21:33:52,American,positive,,This is a positive tweet about American.
+667,2025-02-22 11:18:42,Delta,negative,Late Flight,This is a negative tweet about Delta.
+668,2025-01-20 18:02:36,Delta,positive,,This is a positive tweet about Delta.
+669,2025-02-14 04:59:56,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+670,2025-02-10 09:36:39,United,negative,Lost Luggage,This is a negative tweet about United.
+671,2025-02-28 13:34:34,JetBlue,negative,Customer Service Issue,This is a negative tweet about JetBlue.
+672,2025-04-07 15:47:00,Delta,neutral,,This is a neutral tweet about Delta.
+673,2025-01-25 16:01:55,American,positive,,This is a positive tweet about American.
+674,2025-04-06 13:35:02,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+675,2025-01-28 09:23:56,Delta,positive,,This is a positive tweet about Delta.
+676,2025-01-26 23:06:32,United,negative,longlines,This is a negative tweet about United.
+677,2025-03-30 18:23:50,JetBlue,positive,,This is a positive tweet about JetBlue.
+678,2025-03-23 08:48:10,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+679,2025-02-02 00:10:58,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+680,2025-04-13 14:15:14,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+681,2025-03-29 18:35:03,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+682,2025-04-13 13:33:04,Southwest,neutral,,This is a neutral tweet about Southwest.
+683,2025-03-23 12:58:15,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+684,2025-03-02 00:26:19,Delta,neutral,,This is a neutral tweet about Delta.
+685,2025-02-03 00:22:59,American,negative,Other Issue,This is a negative tweet about American.
+686,2025-02-15 13:05:02,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+687,2025-04-14 13:23:04,American,neutral,,This is a neutral tweet about American.
+688,2025-01-29 19:25:31,United,positive,,This is a positive tweet about United.
+689,2025-02-12 12:05:26,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+690,2025-02-19 22:36:23,United,neutral,,This is a neutral tweet about United.
+691,2025-01-26 13:33:53,United,negative,Customer Service Issue,This is a negative tweet about United.
+692,2025-03-18 04:05:16,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+693,2025-01-27 01:30:23,Virgin America,negative,Lost Luggage,This is a negative tweet about Virgin America.
+694,2025-02-16 03:40:14,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+695,2025-03-02 04:20:51,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+696,2025-03-11 20:02:09,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+697,2025-01-25 21:04:26,JetBlue,negative,Lost Luggage,This is a negative tweet about JetBlue.
+698,2025-02-10 04:18:26,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+699,2025-02-15 05:25:07,Delta,positive,,This is a positive tweet about Delta.
+700,2025-03-07 10:22:37,American,negative,Damaged Luggage,This is a negative tweet about American.
+701,2025-02-15 12:29:52,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+702,2025-01-31 10:21:23,US Airways,positive,,This is a positive tweet about US Airways.
+703,2025-02-15 06:53:33,US Airways,positive,,This is a positive tweet about US Airways.
+704,2025-03-12 14:11:47,United,negative,Late Flight,This is a negative tweet about United.
+705,2025-02-22 21:43:12,Virgin America,negative,Flight Booking Problems,This is a negative tweet about Virgin America.
+706,2025-04-08 03:41:37,American,positive,,This is a positive tweet about American.
+707,2025-02-21 15:50:53,Southwest,positive,,This is a positive tweet about Southwest.
+708,2025-01-23 21:17:51,JetBlue,positive,,This is a positive tweet about JetBlue.
+709,2025-02-12 04:49:34,United,neutral,,This is a neutral tweet about United.
+710,2025-03-19 10:25:56,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+711,2025-03-17 06:43:24,American,positive,,This is a positive tweet about American.
+712,2025-01-30 18:25:34,Delta,negative,Other Issue,This is a negative tweet about Delta.
+713,2025-03-04 06:43:08,Delta,positive,,This is a positive tweet about Delta.
+714,2025-02-05 18:23:27,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+715,2025-03-13 13:35:12,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+716,2025-02-25 18:03:46,United,positive,,This is a positive tweet about United.
+717,2025-02-13 17:32:14,American,negative,Bad Flight,This is a negative tweet about American.
+718,2025-02-06 19:19:03,Delta,positive,,This is a positive tweet about Delta.
+719,2025-04-02 06:05:00,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+720,2025-02-01 14:15:29,United,negative,Lost Luggage,This is a negative tweet about United.
+721,2025-04-18 04:21:21,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+722,2025-02-14 08:06:06,JetBlue,positive,,This is a positive tweet about JetBlue.
+723,2025-03-26 00:39:05,American,positive,,This is a positive tweet about American.
+724,2025-02-03 02:02:15,United,neutral,,This is a neutral tweet about United.
+725,2025-02-07 10:53:58,Southwest,neutral,,This is a neutral tweet about Southwest.
+726,2025-03-02 22:09:12,American,neutral,,This is a neutral tweet about American.
+727,2025-02-08 05:57:56,Southwest,positive,,This is a positive tweet about Southwest.
+728,2025-03-27 23:19:57,Delta,positive,,This is a positive tweet about Delta.
+729,2025-02-12 17:28:33,Southwest,positive,,This is a positive tweet about Southwest.
+730,2025-03-05 20:33:44,United,negative,longlines,This is a negative tweet about United.
+731,2025-02-25 19:17:55,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+732,2025-04-10 18:09:56,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+733,2025-04-01 04:07:36,Delta,positive,,This is a positive tweet about Delta.
+734,2025-04-14 02:34:39,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+735,2025-02-10 11:02:17,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+736,2025-02-16 11:00:10,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+737,2025-04-13 18:30:50,Southwest,negative,Bad Flight,This is a negative tweet about Southwest.
+738,2025-04-13 17:30:05,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+739,2025-04-11 05:54:54,United,negative,Late Flight,This is a negative tweet about United.
+740,2025-01-22 23:46:11,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+741,2025-03-04 00:21:09,US Airways,negative,Late Flight,This is a negative tweet about US Airways.
+742,2025-02-18 19:46:26,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+743,2025-02-23 11:52:01,United,negative,Cancelled Flight,This is a negative tweet about United.
+744,2025-03-31 18:18:01,Delta,negative,Late Flight,This is a negative tweet about Delta.
+745,2025-03-05 20:16:42,JetBlue,positive,,This is a positive tweet about JetBlue.
+746,2025-04-17 06:29:02,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+747,2025-01-21 21:37:04,Southwest,positive,,This is a positive tweet about Southwest.
+748,2025-04-03 15:07:46,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+749,2025-02-20 15:14:58,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+750,2025-03-27 17:33:26,US Airways,neutral,,This is a neutral tweet about US Airways.
+751,2025-03-15 02:42:20,Southwest,positive,,This is a positive tweet about Southwest.
+752,2025-03-03 10:41:29,Virgin America,positive,,This is a positive tweet about Virgin America.
+753,2025-02-20 15:33:42,Delta,positive,,This is a positive tweet about Delta.
+754,2025-02-13 20:22:34,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+755,2025-01-27 02:28:57,Delta,neutral,,This is a neutral tweet about Delta.
+756,2025-01-25 16:20:57,Virgin America,positive,,This is a positive tweet about Virgin America.
+757,2025-02-24 20:12:16,Delta,positive,,This is a positive tweet about Delta.
+758,2025-01-22 16:28:52,Southwest,neutral,,This is a neutral tweet about Southwest.
+759,2025-03-12 03:36:15,American,neutral,,This is a neutral tweet about American.
+760,2025-03-11 04:31:59,American,negative,Cancelled Flight,This is a negative tweet about American.
+761,2025-03-30 10:08:33,American,negative,Flight Attendant Complaints,This is a negative tweet about American.
+762,2025-02-23 12:14:41,US Airways,positive,,This is a positive tweet about US Airways.
+763,2025-01-29 07:27:42,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+764,2025-02-20 15:34:35,Southwest,negative,Other Issue,This is a negative tweet about Southwest.
+765,2025-02-01 19:41:16,American,positive,,This is a positive tweet about American.
+766,2025-02-09 05:18:36,Delta,negative,longlines,This is a negative tweet about Delta.
+767,2025-01-26 10:34:15,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+768,2025-02-07 18:35:21,American,positive,,This is a positive tweet about American.
+769,2025-03-07 13:36:36,American,negative,Lost Luggage,This is a negative tweet about American.
+770,2025-03-17 17:59:43,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+771,2025-04-10 02:21:57,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+772,2025-02-07 02:17:24,American,neutral,,This is a neutral tweet about American.
+773,2025-04-07 06:45:48,Virgin America,negative,Cancelled Flight,This is a negative tweet about Virgin America.
+774,2025-04-02 16:20:56,Delta,negative,Late Flight,This is a negative tweet about Delta.
+775,2025-01-20 11:35:49,Virgin America,negative,Late Flight,This is a negative tweet about Virgin America.
+776,2025-02-23 08:35:39,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+777,2025-02-05 22:55:49,JetBlue,negative,Lost Luggage,This is a negative tweet about JetBlue.
+778,2025-02-19 23:02:08,Southwest,neutral,,This is a neutral tweet about Southwest.
+779,2025-03-26 16:23:29,United,positive,,This is a positive tweet about United.
+780,2025-02-20 19:53:23,American,positive,,This is a positive tweet about American.
+781,2025-02-11 17:08:51,US Airways,positive,,This is a positive tweet about US Airways.
+782,2025-04-11 04:14:16,Southwest,neutral,,This is a neutral tweet about Southwest.
+783,2025-04-04 13:54:11,US Airways,positive,,This is a positive tweet about US Airways.
+784,2025-04-03 05:25:52,American,neutral,,This is a neutral tweet about American.
+785,2025-02-04 11:01:25,Delta,neutral,,This is a neutral tweet about Delta.
+786,2025-03-17 16:31:46,Southwest,negative,longlines,This is a negative tweet about Southwest.
+787,2025-03-25 16:41:38,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+788,2025-04-04 00:05:27,United,negative,longlines,This is a negative tweet about United.
+789,2025-03-24 19:12:23,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+790,2025-03-03 09:00:05,American,neutral,,This is a neutral tweet about American.
+791,2025-02-21 01:47:32,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+792,2025-03-23 17:42:03,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+793,2025-02-01 02:56:49,Virgin America,negative,Cancelled Flight,This is a negative tweet about Virgin America.
+794,2025-02-14 15:39:23,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+795,2025-03-20 10:46:22,Southwest,positive,,This is a positive tweet about Southwest.
+796,2025-02-06 13:55:31,United,positive,,This is a positive tweet about United.
+797,2025-02-05 21:20:34,Delta,negative,Damaged Luggage,This is a negative tweet about Delta.
+798,2025-01-26 00:22:42,American,positive,,This is a positive tweet about American.
+799,2025-03-23 19:12:30,United,negative,Bad Flight,This is a negative tweet about United.
+800,2025-03-19 17:36:05,Delta,negative,Flight Attendant Complaints,This is a negative tweet about Delta.
+801,2025-02-18 19:30:38,United,positive,,This is a positive tweet about United.
+802,2025-04-11 20:10:11,American,positive,,This is a positive tweet about American.
+803,2025-03-25 04:08:29,Southwest,positive,,This is a positive tweet about Southwest.
+804,2025-04-05 07:33:46,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+805,2025-02-12 05:11:07,American,positive,,This is a positive tweet about American.
+806,2025-03-29 03:04:50,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+807,2025-04-13 18:19:30,United,negative,Late Flight,This is a negative tweet about United.
+808,2025-03-13 21:41:59,Delta,positive,,This is a positive tweet about Delta.
+809,2025-02-07 16:59:10,US Airways,negative,Customer Service Issue,This is a negative tweet about US Airways.
+810,2025-02-28 04:13:24,United,positive,,This is a positive tweet about United.
+811,2025-02-02 17:09:51,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+812,2025-04-19 13:33:04,Delta,neutral,,This is a neutral tweet about Delta.
+813,2025-03-08 08:33:48,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+814,2025-01-27 02:25:16,United,positive,,This is a positive tweet about United.
+815,2025-03-01 16:36:34,Delta,neutral,,This is a neutral tweet about Delta.
+816,2025-04-01 10:12:14,American,neutral,,This is a neutral tweet about American.
+817,2025-01-30 23:08:48,Southwest,negative,Cancelled Flight,This is a negative tweet about Southwest.
+818,2025-03-15 12:04:58,American,positive,,This is a positive tweet about American.
+819,2025-02-18 21:29:16,American,negative,Other Issue,This is a negative tweet about American.
+820,2025-01-31 20:27:44,Southwest,neutral,,This is a neutral tweet about Southwest.
+821,2025-03-05 14:52:33,United,neutral,,This is a neutral tweet about United.
+822,2025-04-19 17:24:53,American,negative,Cancelled Flight,This is a negative tweet about American.
+823,2025-03-26 18:39:22,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+824,2025-02-16 20:39:31,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+825,2025-03-20 16:18:14,United,positive,,This is a positive tweet about United.
+826,2025-02-05 17:57:06,American,positive,,This is a positive tweet about American.
+827,2025-02-06 11:57:16,United,positive,,This is a positive tweet about United.
+828,2025-02-25 18:54:44,American,negative,longlines,This is a negative tweet about American.
+829,2025-03-09 21:20:08,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+830,2025-02-08 13:30:54,United,neutral,,This is a neutral tweet about United.
+831,2025-03-13 08:51:08,US Airways,positive,,This is a positive tweet about US Airways.
+832,2025-04-04 18:00:34,JetBlue,positive,,This is a positive tweet about JetBlue.
+833,2025-02-02 10:48:44,Southwest,positive,,This is a positive tweet about Southwest.
+834,2025-03-06 17:09:31,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+835,2025-03-01 18:26:18,Delta,neutral,,This is a neutral tweet about Delta.
+836,2025-03-23 22:51:50,American,negative,Flight Booking Problems,This is a negative tweet about American.
+837,2025-02-10 04:20:30,Virgin America,negative,longlines,This is a negative tweet about Virgin America.
+838,2025-02-15 07:10:19,Southwest,positive,,This is a positive tweet about Southwest.
+839,2025-02-26 19:16:14,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+840,2025-02-01 03:25:15,Southwest,positive,,This is a positive tweet about Southwest.
+841,2025-03-12 04:35:28,Virgin America,positive,,This is a positive tweet about Virgin America.
+842,2025-03-22 16:51:17,American,negative,Other Issue,This is a negative tweet about American.
+843,2025-03-15 09:44:11,Southwest,negative,Other Issue,This is a negative tweet about Southwest.
+844,2025-02-01 15:50:16,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+845,2025-04-11 14:47:13,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+846,2025-03-20 05:45:59,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+847,2025-03-29 09:27:57,American,positive,,This is a positive tweet about American.
+848,2025-04-18 06:41:57,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+849,2025-02-25 02:40:21,US Airways,negative,Bad Flight,This is a negative tweet about US Airways.
+850,2025-03-07 18:36:36,American,negative,Flight Attendant Complaints,This is a negative tweet about American.
+851,2025-03-27 19:58:56,JetBlue,negative,Flight Attendant Complaints,This is a negative tweet about JetBlue.
+852,2025-01-22 19:55:06,Delta,negative,longlines,This is a negative tweet about Delta.
+853,2025-02-16 20:43:38,United,neutral,,This is a neutral tweet about United.
+854,2025-03-04 22:49:33,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+855,2025-03-30 00:08:04,US Airways,negative,Late Flight,This is a negative tweet about US Airways.
+856,2025-02-13 02:23:45,JetBlue,positive,,This is a positive tweet about JetBlue.
+857,2025-02-27 07:30:21,United,positive,,This is a positive tweet about United.
+858,2025-03-23 02:03:08,Delta,neutral,,This is a neutral tweet about Delta.
+859,2025-03-17 01:30:53,Southwest,positive,,This is a positive tweet about Southwest.
+860,2025-02-09 19:29:59,United,neutral,,This is a neutral tweet about United.
+861,2025-02-28 04:32:35,Virgin America,negative,Other Issue,This is a negative tweet about Virgin America.
+862,2025-03-04 02:39:43,JetBlue,negative,Lost Luggage,This is a negative tweet about JetBlue.
+863,2025-04-10 14:03:38,Southwest,positive,,This is a positive tweet about Southwest.
+864,2025-04-05 11:30:47,JetBlue,positive,,This is a positive tweet about JetBlue.
+865,2025-04-10 23:38:21,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+866,2025-04-04 06:53:57,JetBlue,positive,,This is a positive tweet about JetBlue.
+867,2025-01-29 22:11:19,American,positive,,This is a positive tweet about American.
+868,2025-02-02 07:46:31,Southwest,negative,Damaged Luggage,This is a negative tweet about Southwest.
+869,2025-03-13 04:53:47,American,positive,,This is a positive tweet about American.
+870,2025-03-20 17:37:50,American,positive,,This is a positive tweet about American.
+871,2025-01-19 02:27:16,Delta,neutral,,This is a neutral tweet about Delta.
+872,2025-02-07 14:27:57,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+873,2025-03-03 07:00:04,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+874,2025-02-21 19:56:54,United,negative,longlines,This is a negative tweet about United.
+875,2025-02-04 05:14:57,US Airways,positive,,This is a positive tweet about US Airways.
+876,2025-03-03 09:49:28,US Airways,neutral,,This is a neutral tweet about US Airways.
+877,2025-03-12 15:27:51,JetBlue,negative,Lost Luggage,This is a negative tweet about JetBlue.
+878,2025-02-02 16:48:38,US Airways,neutral,,This is a neutral tweet about US Airways.
+879,2025-04-05 00:28:50,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+880,2025-01-30 05:15:47,United,positive,,This is a positive tweet about United.
+881,2025-04-06 05:18:00,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+882,2025-03-04 14:17:36,Delta,positive,,This is a positive tweet about Delta.
+883,2025-04-18 09:26:45,JetBlue,negative,Flight Attendant Complaints,This is a negative tweet about JetBlue.
+884,2025-02-24 20:24:34,US Airways,positive,,This is a positive tweet about US Airways.
+885,2025-04-18 05:52:42,Delta,neutral,,This is a neutral tweet about Delta.
+886,2025-01-23 05:10:44,Virgin America,positive,,This is a positive tweet about Virgin America.
+887,2025-02-08 17:41:44,American,neutral,,This is a neutral tweet about American.
+888,2025-02-19 18:58:48,Delta,neutral,,This is a neutral tweet about Delta.
+889,2025-04-05 08:28:36,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+890,2025-01-19 02:40:35,American,negative,Cancelled Flight,This is a negative tweet about American.
+891,2025-03-01 08:39:14,Southwest,positive,,This is a positive tweet about Southwest.
+892,2025-01-25 23:09:35,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+893,2025-03-04 04:40:19,US Airways,positive,,This is a positive tweet about US Airways.
+894,2025-04-08 22:01:07,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+895,2025-03-29 23:40:05,Delta,positive,,This is a positive tweet about Delta.
+896,2025-04-09 11:48:59,Virgin America,negative,Damaged Luggage,This is a negative tweet about Virgin America.
+897,2025-03-04 10:24:07,Delta,negative,Cancelled Flight,This is a negative tweet about Delta.
+898,2025-04-16 20:51:27,United,negative,Flight Attendant Complaints,This is a negative tweet about United.
+899,2025-03-10 00:39:45,Delta,positive,,This is a positive tweet about Delta.
+900,2025-01-30 07:27:23,Southwest,negative,longlines,This is a negative tweet about Southwest.
+901,2025-01-21 11:32:28,Southwest,positive,,This is a positive tweet about Southwest.
+902,2025-03-19 21:35:24,JetBlue,positive,,This is a positive tweet about JetBlue.
+903,2025-02-16 03:03:01,JetBlue,positive,,This is a positive tweet about JetBlue.
+904,2025-01-24 15:03:00,US Airways,negative,Late Flight,This is a negative tweet about US Airways.
+905,2025-03-04 23:44:57,American,positive,,This is a positive tweet about American.
+906,2025-04-03 22:01:20,US Airways,positive,,This is a positive tweet about US Airways.
+907,2025-02-24 08:56:01,Southwest,positive,,This is a positive tweet about Southwest.
+908,2025-02-08 01:05:19,Virgin America,negative,Flight Attendant Complaints,This is a negative tweet about Virgin America.
+909,2025-03-29 20:36:40,Delta,negative,Customer Service Issue,This is a negative tweet about Delta.
+910,2025-04-06 21:37:02,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+911,2025-04-07 07:58:35,United,negative,longlines,This is a negative tweet about United.
+912,2025-02-23 10:41:27,Delta,negative,Flight Attendant Complaints,This is a negative tweet about Delta.
+913,2025-04-09 08:04:50,United,neutral,,This is a neutral tweet about United.
+914,2025-03-24 18:48:32,US Airways,negative,Lost Luggage,This is a negative tweet about US Airways.
+915,2025-01-26 04:10:59,Delta,negative,longlines,This is a negative tweet about Delta.
+916,2025-03-11 17:13:19,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+917,2025-03-31 02:43:25,US Airways,neutral,,This is a neutral tweet about US Airways.
+918,2025-04-06 16:22:33,Delta,neutral,,This is a neutral tweet about Delta.
+919,2025-02-20 13:35:26,American,positive,,This is a positive tweet about American.
+920,2025-03-03 00:06:35,JetBlue,positive,,This is a positive tweet about JetBlue.
+921,2025-02-09 12:43:08,US Airways,negative,longlines,This is a negative tweet about US Airways.
+922,2025-01-30 21:08:30,United,negative,Other Issue,This is a negative tweet about United.
+923,2025-03-25 15:48:01,JetBlue,positive,,This is a positive tweet about JetBlue.
+924,2025-03-13 06:59:01,American,negative,Lost Luggage,This is a negative tweet about American.
+925,2025-01-24 20:26:20,US Airways,negative,Other Issue,This is a negative tweet about US Airways.
+926,2025-04-10 18:15:41,United,positive,,This is a positive tweet about United.
+927,2025-04-08 06:49:59,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+928,2025-01-22 17:53:52,Virgin America,neutral,,This is a neutral tweet about Virgin America.
+929,2025-04-05 08:28:08,Southwest,positive,,This is a positive tweet about Southwest.
+930,2025-03-03 21:43:36,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+931,2025-01-26 22:01:09,Delta,neutral,,This is a neutral tweet about Delta.
+932,2025-02-16 06:14:57,Delta,positive,,This is a positive tweet about Delta.
+933,2025-03-29 15:06:08,Southwest,negative,Lost Luggage,This is a negative tweet about Southwest.
+934,2025-02-21 00:49:54,American,positive,,This is a positive tweet about American.
+935,2025-03-11 17:59:37,Southwest,neutral,,This is a neutral tweet about Southwest.
+936,2025-04-08 23:35:10,Delta,positive,,This is a positive tweet about Delta.
+937,2025-04-16 10:23:24,Virgin America,negative,Customer Service Issue,This is a negative tweet about Virgin America.
+938,2025-03-30 05:10:12,American,negative,Customer Service Issue,This is a negative tweet about American.
+939,2025-02-08 13:00:00,US Airways,positive,,This is a positive tweet about US Airways.
+940,2025-04-06 03:10:46,Southwest,negative,Customer Service Issue,This is a negative tweet about Southwest.
+941,2025-02-20 02:25:27,Southwest,negative,Flight Attendant Complaints,This is a negative tweet about Southwest.
+942,2025-02-16 19:09:55,US Airways,positive,,This is a positive tweet about US Airways.
+943,2025-03-13 16:43:25,Delta,negative,longlines,This is a negative tweet about Delta.
+944,2025-04-05 01:31:26,United,neutral,,This is a neutral tweet about United.
+945,2025-02-03 11:06:14,American,neutral,,This is a neutral tweet about American.
+946,2025-04-06 06:01:38,US Airways,negative,Flight Attendant Complaints,This is a negative tweet about US Airways.
+947,2025-03-07 01:43:12,Delta,negative,Lost Luggage,This is a negative tweet about Delta.
+948,2025-02-13 18:59:49,Virgin America,negative,Bad Flight,This is a negative tweet about Virgin America.
+949,2025-01-20 11:44:05,US Airways,negative,Cancelled Flight,This is a negative tweet about US Airways.
+950,2025-02-09 22:49:02,JetBlue,negative,Bad Flight,This is a negative tweet about JetBlue.
+951,2025-02-24 15:19:42,United,negative,Lost Luggage,This is a negative tweet about United.
+952,2025-02-14 20:00:01,United,neutral,,This is a neutral tweet about United.
+953,2025-04-07 04:43:57,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+954,2025-03-26 06:25:54,United,positive,,This is a positive tweet about United.
+955,2025-03-19 16:37:56,United,positive,,This is a positive tweet about United.
+956,2025-02-17 11:50:53,American,negative,longlines,This is a negative tweet about American.
+957,2025-02-09 11:42:49,American,negative,Flight Attendant Complaints,This is a negative tweet about American.
+958,2025-03-13 12:06:52,American,neutral,,This is a neutral tweet about American.
+959,2025-03-04 05:01:15,Southwest,positive,,This is a positive tweet about Southwest.
+960,2025-02-27 10:00:10,Delta,negative,Other Issue,This is a negative tweet about Delta.
+961,2025-03-29 20:23:31,Delta,positive,,This is a positive tweet about Delta.
+962,2025-03-11 08:31:12,US Airways,negative,Flight Booking Problems,This is a negative tweet about US Airways.
+963,2025-01-20 23:03:10,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+964,2025-02-19 06:05:06,Virgin America,positive,,This is a positive tweet about Virgin America.
+965,2025-01-23 06:37:32,United,neutral,,This is a neutral tweet about United.
+966,2025-02-05 08:35:21,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+967,2025-01-26 22:52:23,Southwest,negative,Late Flight,This is a negative tweet about Southwest.
+968,2025-02-08 15:59:17,United,neutral,,This is a neutral tweet about United.
+969,2025-03-05 18:46:26,Delta,negative,Customer Service Issue,This is a negative tweet about Delta.
+970,2025-02-16 13:47:13,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+971,2025-01-21 15:39:43,Southwest,negative,Flight Booking Problems,This is a negative tweet about Southwest.
+972,2025-01-23 16:11:45,Delta,neutral,,This is a neutral tweet about Delta.
+973,2025-03-23 23:55:43,JetBlue,positive,,This is a positive tweet about JetBlue.
+974,2025-04-10 06:07:03,US Airways,neutral,,This is a neutral tweet about US Airways.
+975,2025-02-03 15:37:52,JetBlue,positive,,This is a positive tweet about JetBlue.
+976,2025-03-01 13:51:10,American,positive,,This is a positive tweet about American.
+977,2025-02-05 12:05:13,Virgin America,positive,,This is a positive tweet about Virgin America.
+978,2025-04-03 12:39:37,American,positive,,This is a positive tweet about American.
+979,2025-02-18 19:12:54,US Airways,positive,,This is a positive tweet about US Airways.
+980,2025-01-20 02:11:42,United,positive,,This is a positive tweet about United.
+981,2025-01-26 10:31:52,Southwest,neutral,,This is a neutral tweet about Southwest.
+982,2025-01-21 10:46:29,US Airways,positive,,This is a positive tweet about US Airways.
+983,2025-03-08 06:11:10,Delta,negative,Late Flight,This is a negative tweet about Delta.
+984,2025-02-07 04:35:18,JetBlue,neutral,,This is a neutral tweet about JetBlue.
+985,2025-02-07 08:18:28,American,neutral,,This is a neutral tweet about American.
+986,2025-04-10 18:25:31,American,positive,,This is a positive tweet about American.
+987,2025-02-07 21:21:28,American,neutral,,This is a neutral tweet about American.
+988,2025-03-12 19:11:41,Virgin America,negative,Flight Booking Problems,This is a negative tweet about Virgin America.
+989,2025-03-12 14:24:38,Delta,neutral,,This is a neutral tweet about Delta.
+990,2025-03-07 08:36:22,US Airways,positive,,This is a positive tweet about US Airways.
+991,2025-04-03 14:18:21,American,positive,,This is a positive tweet about American.
+992,2025-01-30 06:50:28,Delta,negative,Flight Booking Problems,This is a negative tweet about Delta.
+993,2025-02-02 08:08:01,Southwest,neutral,,This is a neutral tweet about Southwest.
+994,2025-03-19 23:55:05,Southwest,negative,Cancelled Flight,This is a negative tweet about Southwest.
+995,2025-02-18 19:44:27,United,negative,longlines,This is a negative tweet about United.
+996,2025-04-16 22:48:44,JetBlue,negative,longlines,This is a negative tweet about JetBlue.
+997,2025-03-10 01:38:48,US Airways,negative,Damaged Luggage,This is a negative tweet about US Airways.
+998,2025-04-19 19:04:10,United,negative,Cancelled Flight,This is a negative tweet about United.
+999,2025-01-23 10:45:59,Delta,neutral,,This is a neutral tweet about Delta.
+1000,2025-04-09 14:37:40,US Airways,positive,,This is a positive tweet about US Airways.
