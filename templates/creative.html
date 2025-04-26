@@ -1,39 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Creative Charts{% endblock %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"><title>Sentiment Dashboard</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>body { padding: 2rem; } #chart-sentiment, #chart-reasons { margin-bottom: 2rem; }</style>
-</head>
-<body>
-  <h1>Twitter Airline Sentiment Dashboard</h1>
+{% block content %}
+  <h1 class="mb-4">Airline Sentiment Dashboard</h1>
+
   <div class="mb-3">
-    <label for="airline-select" class="form-label">Filter by Airline:</label>
-    <select id="airline-select" class="form-select" style="max-width:300px;">
+    <label for="airline-select" class="form-label">Filter by Airline</label>
+    <select id="airline-select" class="form-select w-auto">
       <option>All</option>
+      <option>United</option>
+      <option>American</option>
+      <option>Southwest</option>
+      <option>Delta</option>
+        <option>US Airways</option>
+        <option>Virgin America</option>
     </select>
   </div>
-  <h2>Sentiment Distribution</h2><div id="chart-sentiment"></div>
-  <h2>Negative Reasons Breakdown</h2><div id="chart-reasons"></div>
 
-  <!-- Load D3 v7 -->
+  <div class="row">
+    <!-- Sentiment -->
+    <div class="col-md-6">
+      <h2>Sentiment Distribution</h2>
+      <div id="chart-sentiment" class="chart-card"></div>
+    </div>
+
+    <!-- Reasons -->
+    <div class="col-md-6">
+      <h2>Negative Reasons Breakdown</h2>
+      <div id="chart-reasons" class="chart-card"></div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block scripts %}
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="../static/js/visualizations.js"></script>
+  <script src="/static/js/visualizations.js"></script>
   <script>
-    // populate dropdown and redraw charts on change
-    d3.csv("/static/data/Kaggle_TwitterUSAirlineSentiment.csv").then(data=>{
-      const airlines = Array.from(new Set(data.map(d=>d.airline))).sort();
-      const sel = document.getElementById('airline-select');
-      airlines.forEach(al=>{
-        const opt = document.createElement('option'); opt.value=al; opt.textContent=al; sel.appendChild(opt);
-      });
-      sel.addEventListener('change',()=> {
-        const a = sel.value;
-        drawSentiment(a);
-        drawReasons(a);
-      });
+    const sel = document.getElementById("airline-select");
+
+    sel.addEventListener("change", () => {
+      const airline = sel.value;
+      drawSentiment(airline);
+      drawReasons(airline);
     });
+
+    // initial draw
+    drawSentiment("All");
+    drawReasons("All");
   </script>
-</body>
-</html>
+{% endblock %}

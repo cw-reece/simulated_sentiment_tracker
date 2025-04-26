@@ -1,49 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+/* style.css */
 
 body {
-    font: 14px/1.4 Georgia, Serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding-top: 4.5rem; /* space for fixed navbar */
 }
 
-#page-wrap {
-    margin: 50px;
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
 }
 
-p {
-    margin: 20px 0;
+.chart-card,
+.reflection-card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  margin-bottom: 2rem;
+    padding: 2rem 2rem 3rem;
+    overflow: visible;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+/* make all axis/tick labels inside charts a bit larger */
+.chart-card svg text {
+  font-size: 14px;   /* or 1rem / 1.125rem, whatever feels right */
 }
 
-/* Zebra striping */
-tr:nth-of-type(odd) {
-	background: #eee;
-}
-
-th {
-	background: #333;
-	color: white;
-	font-weight: bold;
-	cursor: s-resize;
-	background-repeat: no-repeat;
-       background-position: 3% center;
-}
-
-td, th {
-	padding: 6px;
-	border: 1px solid #ccc;
-	text-align: left;
-}
-	
-th.des:after {
-    content: "\21E9";
-}
-    
-th.aes:after {
-    content: "\21E7";
+.chart-card svg {
+  overflow: visible;
 }

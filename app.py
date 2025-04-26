@@ -1,5 +1,7 @@
 
 import csv, random
+from datetime import datetime
+
 from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
 import html
@@ -10,22 +12,29 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, cors_allowed_origins=["http://127.0.0.1:5000", "http://localhost:5000","https://simulated-sentiment-tracker.onrender.com"])
 
-@app.route('/')
-def index():
-    return """
-      <h2>Welcome to the Airline Sentiment App</h2>
-      <ul>
-        <li><a href="/live">Live Sentiment Feed</a></li>
-        <li><a href="/creative">Creative Visualizations</a></li>
-        <li><a href="/reflections">Reflection Page</a></li>
-      </ul>
-    """
-@app.route('/reflections')
+@app.route("/")
+def home():
+    return render_template(
+        "base.html",
+        page="home",
+        current_year=datetime.utcnow().year
+    )
+@app.route("/reflection")
 def reflection():
-    return render_template('reflections.html')
-@app.route('/creative')
+    return render_template(
+        "reflections.html",
+        page="reflection",
+        current_year=datetime.utcnow().year
+    )
+
+@app.route("/creative")
 def creative():
-    return render_template('creative.html')
+    return render_template(
+        "creative.html",
+        page="creative",
+        current_year=datetime.utcnow().year
+    )
+
 # Load synthetic tweets once
 tweets = []
 with open('static/data/synthetic_tweets.csv', newline='', encoding='utf-8') as f:
@@ -57,9 +66,13 @@ def on_connect():
         # start random_playback in a SocketIO background task
            bg_thread = socketio.start_background_task(random_playback)
 
-@app.route('/live')
+@app.route("/live")
 def live():
-    return render_template('live.html')
+    return render_template(
+        "live.html",
+        page="live",
+        current_year=datetime.utcnow().year
+    )
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)
