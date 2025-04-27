@@ -11,7 +11,7 @@ bg_thread=None
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
-socketio = SocketIO(app, cors_allowed_origins=["http://127.0.0.1:5000", "http://localhost:5000","https://simulated-sentiment-tracker.onrender.com"])
+socketio = SocketIO(app, cors_allowed_origins=[ "http://localhost:5000","https://simulated-sentiment-tracker.onrender.com"])
 
 @app.route("/")
 def home():
@@ -53,7 +53,7 @@ def random_playback():
             'reason': html.escape(tweet['negative_reason'])
         }
         socketio.emit('new_tweet', payload)
-        socketio.sleep(1)
+        socketio.sleep(2)
 
 @socketio.on('connect')
 def on_connect():

@@ -27,9 +27,9 @@ footer {
   color: #6c757d;
   font-size: 0.9rem;
 }
-/* make all axis/tick labels inside charts a bit larger */
+
 .chart-card svg text {
-  font-size: 14px;   /* or 1rem / 1.125rem, whatever feels right */
+  font-size: 13px;
 }
 
 .chart-card svg {

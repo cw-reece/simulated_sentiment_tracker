@@ -1,11 +1,10 @@
-// Maintain rolling arrays
+
 const tweets = [];
 const negativeReasons = [];
 
-// Connect
 const socket = io();
 
-// On each new synthetic tweet
+
 socket.on('new_tweet', tweet => {
   tweets.push(tweet);
   if (tweet.sentiment === 'negative') {
