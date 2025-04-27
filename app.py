@@ -1,15 +1,16 @@
-
-import csv, random
+import csv
+import html
+import os
+import random
 from datetime import datetime
 
 from flask import Flask, render_template
-from flask_socketio import SocketIO, emit
-import html
+from flask_socketio import SocketIO
 
 bg_thread=None
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secret!'
+app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 socketio = SocketIO(app, cors_allowed_origins=["http://127.0.0.1:5000", "http://localhost:5000","https://simulated-sentiment-tracker.onrender.com"])
 
 @app.route("/")
