@@ -1,39 +1,39 @@
-// visualizations.js - D3 v7 multiple charts with per-bar colors
 
-// 0️⃣ Group JetBlue & Spirit into Delta
+
+
 const grouping = {
   "Delta": ["Delta", "JetBlue", "Spirit"]
 };
 
-// Reusable filter helper
+
 function filterData(data, airline) {
   if (!airline || airline === "All") return data;
-  // if it's a grouped key, include all members
+
   if (grouping[airline]) {
     return data.filter(d => grouping[airline].includes(d.airline));
   }
-  // otherwise exact match
+
   return data.filter(d => d.airline === airline);
 }
 
-// Draw sentiment distribution bar chart
+
 function drawSentiment(filterAirline) {
   d3.csv("/static/data/Kaggle_TwitterUSAirlineSentiment.csv")
     .then(function(data) {
-      // 1) filter via our helper
+
       const subset = filterData(data, filterAirline);
 
-      // 2) rollup by airline_sentiment
+
       const counts = Array.from(
         d3.rollup(subset, v => v.length, d => d.airline_sentiment)
       ).map(([sentiment, count]) => ({ sentiment, count }))
        .sort((a, b) => b.count - a.count);
 
-      // 3) clear old
+
       const container = d3.select("#chart-sentiment");
       container.selectAll("*").remove();
 
-      // 4) svg dims
+
       const margin = { top: 20, right: 20, bottom: 60, left: 60 },
             width  = 600 - margin.left - margin.right,
             height = 400 - margin.top  - margin.bottom;
@@ -44,7 +44,7 @@ function drawSentiment(filterAirline) {
         .append("g")
           .attr("transform", `translate(${margin.left},${margin.top})`);
 
-      // 5) scales
+
       const x = d3.scaleBand()
         .domain(counts.map(d => d.sentiment))
         .range([0, width])
@@ -54,11 +54,11 @@ function drawSentiment(filterAirline) {
         .domain([0, d3.max(counts, d => d.count)]).nice()
         .range([height, 0]);
 
-      // 6) color
+
       const color = d3.scaleOrdinal(d3.schemeCategory10)
         .domain(counts.map(d => d.sentiment));
 
-      // 7) axes
+
       svg.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x))
@@ -70,7 +70,7 @@ function drawSentiment(filterAirline) {
         .selectAll("text")
           .attr("font-size", "14px");
 
-      // 8) draw bars
+
       svg.selectAll(".bar")
         .data(counts)
         .join("rect")
@@ -83,15 +83,15 @@ function drawSentiment(filterAirline) {
     });
 }
 
-// Draw negative reason breakdown for negative tweets
+
 function drawReasons(filterAirline) {
   d3.csv("/static/data/Kaggle_TwitterUSAirlineSentiment.csv")
     .then(function(data) {
-      // 1) filter & only negatives
+
       let subset = filterData(data, filterAirline)
         .filter(d => d.airline_sentiment === "negative");
 
-      // 2) rollup by negative_reason (blanks → "Unknown")
+
       const counts = Array.from(
         d3.rollup(
           subset,
@@ -101,11 +101,11 @@ function drawReasons(filterAirline) {
       ).map(([reason, count]) => ({ reason, count }))
        .sort((a, b) => b.count - a.count);
 
-      // 3) clear old
+
       const container = d3.select("#chart-reasons");
       container.selectAll("*").remove();
 
-      // 4) svg dims
+
       const margin = { top: 20, right: 20, bottom: 80, left: 60 },
             width  = 600 - margin.left - margin.right,
             height = 400 - margin.top  - margin.bottom;
@@ -116,7 +116,7 @@ function drawReasons(filterAirline) {
         .append("g")
           .attr("transform", `translate(${margin.left},${margin.top})`);
 
-      // 5) scales
+
       const x = d3.scaleBand()
         .domain(counts.map(d => d.reason))
         .range([0, width])
@@ -126,11 +126,11 @@ function drawReasons(filterAirline) {
         .domain([0, d3.max(counts, d => d.count)]).nice()
         .range([height, 0]);
 
-      // 6) color
+
       const color = d3.scaleOrdinal(d3.schemeCategory10)
         .domain(counts.map(d => d.reason));
 
-      // 7) axes with rotated reason labels
+
       const xAxisG = svg.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x));
@@ -145,7 +145,7 @@ function drawReasons(filterAirline) {
         .selectAll("text")
           .attr("font-size", "14px");
 
-      // 8) bars
+
       svg.selectAll(".bar")
         .data(counts)
         .join("rect")
@@ -158,6 +158,6 @@ function drawReasons(filterAirline) {
     });
 }
 
-// Initial draw on page load
+
 drawSentiment("All");
 drawReasons("All");

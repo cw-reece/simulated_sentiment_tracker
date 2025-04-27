@@ -36,7 +36,7 @@ def creative():
         current_year=datetime.utcnow().year
     )
 
-# Load synthetic tweets once
+
 tweets = []
 with open('static/data/synthetic_tweets.csv', newline='', encoding='utf-8') as f:
     reader = csv.DictReader(f)

@@ -14,7 +14,7 @@ socket.on('new_tweet', tweet => {
   drawReasonsLive();
 });
 
-// Draw/up‐date sentiment distribution
+
 function drawSentimentLive() {
   const counts = Array.from(
     d3.rollup(tweets, v => v.length, d => d.sentiment)
@@ -66,7 +66,6 @@ function drawSentimentLive() {
       .attr('fill',   d => color(d.sentiment));
 }
 
-// Draw/up‐date negative reasons breakdown
 function drawReasonsLive() {
   const counts = Array.from(
     d3.rollup(negativeReasons, v => v.length, d => d)

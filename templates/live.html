@@ -7,7 +7,7 @@
     <p>Streaming synthetic tweets every 2 seconds…</p>
 
     <div class="row">
-      <!-- Live Sentiment Distribution -->
+
       <div class="col-md-6 mb-4">
         <div class="card">
           <div class="card-body">
@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <!-- Live Negative Reasons Breakdown -->
+
       <div class="col-md-6 mb-4">
         <div class="card">
           <div class="card-body">
@@ -31,10 +31,10 @@
 {% endblock %}
 
 {% block scripts %}
-  <!-- Socket.IO client -->
+
   <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
-  <!-- D3 v7 -->
+
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Your live-updating logic -->
+
   <script src="{{ url_for('static', filename='js/live.js') }}"></script>
 {% endblock %}
